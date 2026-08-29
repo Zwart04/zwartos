@@ -3,7 +3,7 @@
 #  Format:
 #     Nama | folder-URL/ | regex-nama-file   (auto cari versi terbaru)
 #     Nama | URL-langsung-ke-.iso            (link tetap; edit saat usang)
-#  Baris diawali #  = catatan. 55 OS, semua diverifikasi HTTP 200 (Agu 2026).
+#  Baris diawali #  = catatan. 57 pilihan (55 OS + 2 netboot.xyz), diverifikasi HTTP 200 (Agu 2026).
 #  Tambah OS / perbaiki link mati: edit file ini di GitHub -> semua stik ikut terbaru.
 # ============================================================
 
@@ -71,3 +71,9 @@ Tails (~1.7GB)                   | https://download.tails.net/tails/stable/tails
 Clonezilla Live (~546MB)         | https://free.nchc.org.tw/clonezilla-live/stable/ | clonezilla-live-[0-9.]+-[0-9a-z]+-amd64\.iso
 Kaspersky Rescue (~677MB)        | https://rescuedisk.s.kaspersky-labs.com/updatable/2018/krd.iso
 ShredOS wipe (~394MB)            | https://github.com/PartialVolume/shredos.x86_64/releases/download/v2025.11_31_x86-64_0.42/shredos-2025.11_31_x86-64_v0.42_20260716_plus-partition.iso
+
+# ===================== NETBOOT.XYZ (network-boot ~90 OS; butuh LAN) =====================
+# Ini mengunduh ISO netboot.xyz (2MB) ke Ventoy. Boot dari Ventoy -> menu netboot
+# ambil installer OS lewat JARINGAN (perlu kabel LAN; iPXE tak dukung WiFi).
+netboot.xyz (~2MB)               | https://boot.netboot.xyz/ipxe/netboot.xyz.iso
+netboot.xyz Secure Boot (~2MB)   | https://github.com/netbootxyz/netboot.xyz/releases/latest/download/netboot.xyz-sb.iso
