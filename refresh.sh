@@ -29,7 +29,7 @@ su=$(gh_iso "PartialVolume/shredos.x86_64" 'plus-partition\.iso'); [ -z "$su" ] 
 [ -n "$su" ] && [ "$(code_of "$su")" = 200 ] && { bump "ShredOS" "ShredOS wipe (~394MB)            | ${su}"; echo "  ShredOS -> bump"; }
 
 echo "== validasi semua entri =="
-ok=0; bad=0; broken=""
+ok=0; bad=0; warn=0; broken=""; doubt=""
 while IFS= read -r line; do
   case "$line" in ''|\#*) continue;; esac
   name=$(printf '%s' "$line" | awk -F'|' '{gsub(/^[ \t]+|[ \t]+$/,"",$1);print $1}')
@@ -37,7 +37,9 @@ while IFS= read -r line; do
   b=$(printf '%s'    "$line" | awk -F'|' 'NF>=3{gsub(/^[ \t]+|[ \t]+$/,"",$3);print $3}')
   if [ -n "$b" ]; then f=$(newest "$a" "$b"); [ -z "$f" ] && { bad=$((bad+1)); broken="${broken}\n- ${name} (resolve gagal)"; continue; }; url="$a$f"; else url="$a"; fi
   c=$(code_of "$url")
-  if [ "$c" = 200 ] || [ "$c" = 302 ]; then ok=$((ok+1)); else bad=$((bad+1)); broken="${broken}\n- ${name} (HTTP ${c})"; fi
+  if [ "$c" = 200 ] || [ "$c" = 302 ]; then ok=$((ok+1))
+  elif [ "$c" = 403 ] || [ "$c" = 429 ]; then warn=$((warn+1)); doubt="${doubt}\n- ${name} (HTTP ${c} — kemungkinan blokir IP bot/CI; biasanya tetap bisa dari laptop)"
+  else bad=$((bad+1)); broken="${broken}\n- ${name} (HTTP ${c})"; fi
 done < "$F"
 
 {
@@ -46,7 +48,9 @@ done < "$F"
   echo "Terakhir dicek robot: $(date -u '+%Y-%m-%d %H:%M UTC')"
   echo
   echo "- Link sehat : ${ok}"
-  echo "- Bermasalah : ${bad}"
-  if [ "$bad" -gt 0 ]; then echo; echo "## Perlu diperbaiki manual"; printf '%b\n' "$broken"; fi
+  echo "- Diragukan  : ${warn}"
+  echo "- Rusak      : ${bad}"
+  if [ "$bad"  -gt 0 ]; then echo; echo "## Perlu diperbaiki manual"; printf '%b\n' "$broken"; fi
+  if [ "$warn" -gt 0 ]; then echo; echo "## Diragukan (cek manual dari laptop)"; printf '%b\n' "$doubt"; fi
 } > STATUS.md
-echo "HASIL: ok=$ok bad=$bad"
+echo "HASIL: ok=$ok warn=$warn bad=$bad"
