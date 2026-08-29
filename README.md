@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-08-29 10:17 UTC — ✅ Aktif: **53** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **54**
+**Diperiksa robot:** 2026-08-29 12:33 UTC — ✅ Aktif: **64** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **65**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -65,6 +65,12 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | openSUSE Tumbleweed (~4.2GB) | ✅ | link |
 | EndeavourOS (~3.6GB) | ✅ | auto |
 | CachyOS (~3.0GB) | ✅ | link |
+| Ubuntu 24.04 Desktop LTS (~6.2GB) | ✅ | auto |
+| Ubuntu 22.04 Desktop LTS (~4.4GB) | ✅ | auto |
+| Ubuntu MATE 24.04 (~4.2GB) | ✅ | auto |
+| Linux Mint 21 Cinnamon (~2.9GB) | ✅ | auto |
+| Fedora 43 Workstation (~2.6GB) | ✅ | auto |
+| Garuda Dragonized (~3.3GB) | ✅ | link |
 
 ### SERVER / ENTERPRISE
 
@@ -82,6 +88,10 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | openSUSE Leap 15.6 (~4.3GB) | ✅ | auto |
 | openEuler 24.03 LTS (~3.9GB) | ✅ | auto |
 | Proxmox VE (~1.6GB) | ✅ | auto |
+| Ubuntu 24.04 Server LTS (~3.2GB) | ✅ | auto |
+| Debian 12 netinst (~670MB) | ✅ | auto |
+| AlmaLinux 8 minimal (~2.0GB) | ✅ | link |
+| Rocky Linux 8 minimal (~3.1GB) | ✅ | auto |
 
 ### RINGAN / ADVANCED / BSD
 
@@ -96,6 +106,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | NixOS minimal (~1.6GB) | ✅ | link |
 | FreeBSD 14 disc1 (~1.2GB) | ✅ | auto |
 | OpenBSD (~800MB) | ✅ | link |
+| Void Linux musl Xfce (~1.3GB) | ✅ | auto |
 
 ### SECURITY / PRIVACY
 
