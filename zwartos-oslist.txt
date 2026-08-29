@@ -1,0 +1,49 @@
+# ============================================================
+#  ZWARTOS - daftar OS  (sumber: dikelola di GitHub Zwart04/zwartos)
+#  Format:
+#     Nama | folder-URL/ | regex-nama-file      (auto cari terbaru)
+#     Nama | URL-langsung-ke-.iso               (link tetap)
+#  Baris diawali #  = catatan. Semua link diverifikasi HTTP 200 (Agu 2026).
+#  Tambah OS baru / perbaiki link mati: edit file ini di GitHub.
+# ============================================================
+
+# ===================== DESKTOP POPULER =====================
+Ubuntu Desktop (~6.0GB)          | https://releases.ubuntu.com/26.04/ | ubuntu-[0-9.]+-desktop-amd64\.iso
+Kubuntu (~4.7GB)                 | https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/ | kubuntu-[0-9.]+-desktop-amd64\.iso
+Xubuntu (~4.8GB)                 | https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/ | xubuntu-[0-9.]+-desktop-amd64\.iso
+Lubuntu (~3.7GB)                 | https://cdimage.ubuntu.com/lubuntu/releases/26.04/release/ | lubuntu-[0-9.]+-desktop-amd64\.iso
+Linux Mint Cinnamon (~2.9GB)     | https://mirror.csclub.uwaterloo.ca/linuxmint/stable/22.3/ | linuxmint-[0-9.]+-cinnamon-64bit\.iso
+Linux Mint MATE (~2.9GB)         | https://mirror.csclub.uwaterloo.ca/linuxmint/stable/22.3/ | linuxmint-[0-9.]+-mate-64bit\.iso
+Linux Mint Xfce (~2.8GB)         | https://mirror.csclub.uwaterloo.ca/linuxmint/stable/22.3/ | linuxmint-[0-9.]+-xfce-64bit\.iso
+Fedora Workstation (~2.7GB)      | https://ftp.halifax.rwth-aachen.de/fedora/linux/releases/44/Workstation/x86_64/iso/ | Fedora-Workstation-Live-[0-9A-Za-z._x-]+\.iso
+Fedora KDE (~2.7GB)              | https://ftp.halifax.rwth-aachen.de/fedora/linux/releases/44/KDE/x86_64/iso/ | Fedora-KDE-Desktop-Live-[0-9A-Za-z._x-]+\.iso
+Debian Live GNOME (~3.5GB)       | https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ | debian-live-[0-9.]+-amd64-gnome\.iso
+openSUSE Tumbleweed (~4.2GB)     | https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
+EndeavourOS (~3.6GB)             | https://mirror.alpix.eu/endeavouros/iso/ | EndeavourOS_[A-Za-z._-]*[0-9.]+\.iso
+
+# ===================== SERVER / ENTERPRISE =====================
+Ubuntu Server (~2.7GB)           | https://releases.ubuntu.com/26.04/ | ubuntu-[0-9.]+-live-server-amd64\.iso
+Debian netinst (~755MB)          | https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/ | debian-[0-9.]+-amd64-netinst\.iso
+AlmaLinux 9 minimal (~2.6GB)     | https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso
+AlmaLinux 10 minimal (~1.5GB)    | https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
+Rocky Linux 9 minimal (~2.6GB)   | https://download.rockylinux.org/pub/rocky/9/isos/x86_64/ | Rocky-9\.[0-9]+-x86_64-minimal\.iso
+Rocky Linux 10 minimal (~1.9GB)  | https://download.rockylinux.org/pub/rocky/10/isos/x86_64/ | Rocky-10\.[0-9]+-x86_64-minimal\.iso
+CentOS Stream 9 boot (~1.5GB)    | https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/ | CentOS-Stream-9-[0-9A-Za-z.-]*x86_64-boot\.iso
+CentOS Stream 10 boot (~892MB)   | https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/ | CentOS-Stream-10-[0-9A-Za-z.-]*x86_64-boot\.iso
+openSUSE Leap 15.6 (~4.3GB)      | https://download.opensuse.org/distribution/leap/15.6/iso/ | openSUSE-Leap-15\.6-DVD-x86_64-Media\.iso
+
+# ===================== RINGAN / ADVANCED =====================
+Arch Linux (~1.5GB)              | https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso
+Alpine Standard (~352MB)         | https://dl-cdn.alpinelinux.org/alpine/latest-stable/releases/x86_64/ | alpine-standard-[0-9.]+-x86_64\.iso
+Alpine Extended (~1.4GB)         | https://dl-cdn.alpinelinux.org/alpine/latest-stable/releases/x86_64/ | alpine-extended-[0-9.]+-x86_64\.iso
+Void Linux Xfce (~1.3GB)         | https://repo-default.voidlinux.org/live/current/ | void-live-x86_64-[0-9]+-xfce\.iso
+Devuan Live (~1.4GB)             | https://files.devuan.org/devuan_daedalus/desktop-live/ | devuan_daedalus_[0-9.]+_amd64_desktop-live\.iso
+Gentoo minimal (~1.4GB)          | https://distfiles.gentoo.org/releases/amd64/autobuilds/current-install-amd64-minimal/ | install-amd64-minimal-[0-9A-Za-z]+\.iso
+NixOS minimal (~1.6GB)           | https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso
+FreeBSD 14 disc1 (~1.2GB)        | https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.3/ | FreeBSD-14\.[0-9]+-RELEASE-amd64-disc1\.iso
+
+# ===================== SECURITY =====================
+Kali Installer (~4.5GB)          | https://cdimage.kali.org/current/ | kali-linux-[0-9.]+-installer-amd64\.iso
+
+# ===================== UTILITAS =====================
+Clonezilla Live (~546MB)         | https://free.nchc.org.tw/clonezilla-live/stable/ | clonezilla-live-[0-9.]+-[0-9a-z]+-amd64\.iso
