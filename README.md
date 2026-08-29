@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-_(status diisi robot saat pertama jalan)_
+**Diperiksa robot:** 2026-08-29 10:17 UTC — ✅ Aktif: **53** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **54**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -32,5 +32,83 @@ Robot **hanya memperbarui** blok status & daftar OS; bagian lain di atas aman di
 Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bisa dari laptop) · ❌ rusak
 
 <!-- OSLIST:START -->
-_(daftar diisi robot saat pertama jalan)_
+
+### DESKTOP POPULER
+
+| OS | Status | Tipe |
+|---|:---:|:---:|
+| Ubuntu Desktop (~6.0GB) | ✅ | auto |
+| Kubuntu (~4.7GB) | ✅ | auto |
+| Xubuntu (~4.8GB) | ✅ | auto |
+| Lubuntu (~3.7GB) | ✅ | auto |
+| Ubuntu Budgie (~3.8GB) | ✅ | auto |
+| Ubuntu Cinnamon (~5.3GB) | ✅ | auto |
+| Ubuntu Unity (~3.9GB) | ✅ | auto |
+| Ubuntu Kylin (~5.3GB) | ✅ | auto |
+| Edubuntu (~7.4GB) | ✅ | auto |
+| Linux Mint Cinnamon (~2.9GB) | ✅ | auto |
+| Linux Mint MATE (~2.9GB) | ✅ | auto |
+| Linux Mint Xfce (~2.8GB) | ✅ | auto |
+| Fedora Workstation (~2.7GB) | ✅ | auto |
+| Fedora KDE (~2.7GB) | ✅ | auto |
+| Fedora Xfce (~2.7GB) | ✅ | auto |
+| Fedora Cinnamon (~3.0GB) | ✅ | auto |
+| Fedora MATE (~3.0GB) | ✅ | auto |
+| Fedora LXQt (~2.3GB) | ✅ | auto |
+| Fedora i3 (~2.3GB) | ✅ | auto |
+| Debian Live GNOME (~3.5GB) | ✅ | auto |
+| Debian Live KDE (~3.9GB) | ✅ | auto |
+| Debian Live Xfce (~3.6GB) | ✅ | auto |
+| Debian Live Cinnamon (~3.8GB) | ✅ | auto |
+| Debian Live MATE (~3.7GB) | ✅ | auto |
+| Debian Live LXQt (~3.7GB) | ✅ | auto |
+| openSUSE Tumbleweed (~4.2GB) | ✅ | link |
+| EndeavourOS (~3.6GB) | ✅ | auto |
+| CachyOS (~3.0GB) | ✅ | link |
+
+### SERVER / ENTERPRISE
+
+| OS | Status | Tipe |
+|---|:---:|:---:|
+| Ubuntu Server (~2.7GB) | ✅ | auto |
+| Debian netinst (~755MB) | ✅ | auto |
+| Fedora Server (~3.6GB) | ✅ | auto |
+| AlmaLinux 9 minimal (~2.6GB) | ✅ | link |
+| AlmaLinux 10 minimal (~1.5GB) | ✅ | link |
+| Rocky Linux 9 minimal (~2.6GB) | ✅ | auto |
+| Rocky Linux 10 minimal (~1.9GB) | ✅ | auto |
+| CentOS Stream 9 boot (~1.5GB) | ✅ | auto |
+| CentOS Stream 10 boot (~892MB) | ✅ | auto |
+| openSUSE Leap 15.6 (~4.3GB) | ✅ | auto |
+| openEuler 24.03 LTS (~3.9GB) | ✅ | auto |
+| Proxmox VE (~1.6GB) | ✅ | auto |
+
+### RINGAN / ADVANCED / BSD
+
+| OS | Status | Tipe |
+|---|:---:|:---:|
+| Arch Linux (~1.5GB) | ✅ | link |
+| Alpine Standard (~352MB) | ✅ | auto |
+| Alpine Extended (~1.4GB) | ✅ | auto |
+| Void Linux Xfce (~1.3GB) | ✅ | auto |
+| Devuan Live (~1.4GB) | ✅ | auto |
+| Gentoo minimal (~1.4GB) | ✅ | auto |
+| NixOS minimal (~1.6GB) | ✅ | link |
+| FreeBSD 14 disc1 (~1.2GB) | ✅ | auto |
+| OpenBSD (~800MB) | ✅ | link |
+
+### SECURITY / PRIVACY
+
+| OS | Status | Tipe |
+|---|:---:|:---:|
+| Kali Installer (~4.5GB) | ✅ | auto |
+| Tails (~1.7GB) | ✅ | link |
+
+### UTILITAS / RESCUE
+
+| OS | Status | Tipe |
+|---|:---:|:---:|
+| Clonezilla Live (~546MB) | ✅ | auto |
+| Kaspersky Rescue (~677MB) | ⚠️ | link |
+| ShredOS wipe (~394MB) | ✅ | link |
 <!-- OSLIST:END -->
