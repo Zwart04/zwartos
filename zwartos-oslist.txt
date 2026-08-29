@@ -72,7 +72,7 @@ Devuan Live (~1.4GB)             | https://files.devuan.org/devuan_daedalus/desk
 Gentoo minimal (~1.4GB)          | https://distfiles.gentoo.org/releases/amd64/autobuilds/current-install-amd64-minimal/ | install-amd64-minimal-[0-9A-Za-z]+\.iso
 NixOS minimal (~1.6GB)           | https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso
 FreeBSD 14 disc1 (~1.2GB)        | https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.3/ | FreeBSD-14\.[0-9]+-RELEASE-amd64-disc1\.iso
-OpenBSD (~800MB)                 | https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
+OpenBSD (~800MB)                 | https://cdn.openbsd.org/pub/OpenBSD/7.9/amd64/install79.iso
 
 Void Linux musl Xfce (~1.3GB)    | https://repo-default.voidlinux.org/live/current/ | void-live-x86_64-musl-[0-9]+-xfce\.iso
 
