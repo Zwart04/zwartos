@@ -1,0 +1,25 @@
+name: refresh-oslist
+on:
+  schedule:
+    - cron: '17 3 * * 1'   # tiap Senin 03:17 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cek + auto-bump daftar OS
+        run: bash refresh.sh
+      - name: Commit perubahan
+        run: |
+          git config user.name "zwartos-bot"
+          git config user.email "zwartos-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "robot: refresh & validasi daftar OS ($(date -u '+%Y-%m-%d'))"
+            git push
+          else
+            echo "tidak ada perubahan"
+          fi
