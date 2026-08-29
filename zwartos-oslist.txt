@@ -37,6 +37,13 @@ openSUSE Tumbleweed (~4.2GB)     | https://download.opensuse.org/tumbleweed/iso/
 EndeavourOS (~3.6GB)             | https://mirror.alpix.eu/endeavouros/iso/ | EndeavourOS_[A-Za-z._-]*[0-9.]+\.iso
 CachyOS (~3.0GB)                 | https://mirror.cachyos.org/ISO/desktop/260809/cachyos-desktop-linux-260809.iso
 
+Ubuntu 24.04 Desktop LTS (~6.2GB)| https://releases.ubuntu.com/24.04/ | ubuntu-[0-9.]+-desktop-amd64\.iso
+Ubuntu 22.04 Desktop LTS (~4.4GB)| https://releases.ubuntu.com/22.04/ | ubuntu-[0-9.]+-desktop-amd64\.iso
+Ubuntu MATE 24.04 (~4.2GB)       | https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ | ubuntu-mate-[0-9.]+-desktop-amd64\.iso
+Linux Mint 21 Cinnamon (~2.9GB)  | https://mirror.csclub.uwaterloo.ca/linuxmint/stable/21.3/ | linuxmint-[0-9.]+-cinnamon-64bit\.iso
+Fedora 43 Workstation (~2.6GB)   | https://ftp.halifax.rwth-aachen.de/fedora/linux/releases/43/Workstation/x86_64/iso/ | Fedora-Workstation-Live-[0-9A-Za-z._x-]+\.iso
+Garuda Dragonized (~3.3GB)       | https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso
+
 # ===================== SERVER / ENTERPRISE =====================
 Ubuntu Server (~2.7GB)           | https://releases.ubuntu.com/26.04/ | ubuntu-[0-9.]+-live-server-amd64\.iso
 Debian netinst (~755MB)          | https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/ | debian-[0-9.]+-amd64-netinst\.iso
@@ -51,6 +58,11 @@ openSUSE Leap 15.6 (~4.3GB)      | https://download.opensuse.org/distribution/le
 openEuler 24.03 LTS (~3.9GB)     | https://repo.openeuler.org/openEuler-24.03-LTS/ISO/x86_64/ | openEuler-[0-9.]+-LTS-x86_64-dvd\.iso
 Proxmox VE (~1.6GB)              | https://enterprise.proxmox.com/iso/ | proxmox-ve_[0-9.]+-[0-9]+\.iso
 
+Ubuntu 24.04 Server LTS (~3.2GB) | https://releases.ubuntu.com/24.04/ | ubuntu-[0-9.]+-live-server-amd64\.iso
+Debian 12 netinst (~670MB)       | https://cdimage.debian.org/mirror/cdimage/archive/12.11.0/amd64/iso-cd/ | debian-[0-9.]+-amd64-netinst\.iso
+AlmaLinux 8 minimal (~2.0GB)     | https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-minimal.iso
+Rocky Linux 8 minimal (~3.1GB)   | https://download.rockylinux.org/pub/rocky/8/isos/x86_64/ | Rocky-8\.[0-9]+-x86_64-minimal\.iso
+
 # ===================== RINGAN / ADVANCED / BSD =====================
 Arch Linux (~1.5GB)              | https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso
 Alpine Standard (~352MB)         | https://dl-cdn.alpinelinux.org/alpine/latest-stable/releases/x86_64/ | alpine-standard-[0-9.]+-x86_64\.iso
@@ -60,7 +72,9 @@ Devuan Live (~1.4GB)             | https://files.devuan.org/devuan_daedalus/desk
 Gentoo minimal (~1.4GB)          | https://distfiles.gentoo.org/releases/amd64/autobuilds/current-install-amd64-minimal/ | install-amd64-minimal-[0-9A-Za-z]+\.iso
 NixOS minimal (~1.6GB)           | https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso
 FreeBSD 14 disc1 (~1.2GB)        | https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.3/ | FreeBSD-14\.[0-9]+-RELEASE-amd64-disc1\.iso
-OpenBSD (~800MB)                 | https://cdn.openbsd.org/pub/OpenBSD/7.9/amd64/install79.iso
+OpenBSD (~800MB)                 | https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
+
+Void Linux musl Xfce (~1.3GB)    | https://repo-default.voidlinux.org/live/current/ | void-live-x86_64-musl-[0-9]+-xfce\.iso
 
 # ===================== SECURITY / PRIVACY =====================
 Kali Installer (~4.5GB)          | https://cdimage.kali.org/current/ | kali-linux-[0-9.]+-installer-amd64\.iso
