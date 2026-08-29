@@ -1,10 +1,7 @@
 # ZWARTOS — status daftar OS
 
-Terakhir dicek robot: 2026-08-29 09:56 UTC
+Terakhir dicek robot: 2026-08-29 09:59 UTC
 
-- Link sehat : 55
-- Bermasalah : 1
-
-## Perlu diperbaiki manual
-
-- Kaspersky Rescue (~677MB) (HTTP 403)
+- Link sehat : 56
+- Diragukan  : 0
+- Rusak      : 0
