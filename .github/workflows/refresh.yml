@@ -4,10 +4,14 @@ on:
     - cron: '17 3 * * 1'   # tiap Senin 03:17 UTC
   workflow_dispatch: {}
 permissions:
-  contents: write
+  contents: write        # cuma isi repo; tidak menyentuh Actions/packages/OIDC
+concurrency:
+  group: refresh-oslist   # jangan sampai dua jadwal jalan bersamaan
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - name: Cek + auto-bump daftar OS
@@ -17,7 +21,7 @@ jobs:
           git config user.name "zwartos-bot"
           git config user.email "zwartos-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add -A
+            git add zwartos-oslist.txt README.md
             git commit -m "robot: refresh & validasi daftar OS ($(date -u '+%Y-%m-%d'))"
             git push
           else
