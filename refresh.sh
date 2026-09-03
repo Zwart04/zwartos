@@ -4,7 +4,11 @@
 set -u
 F="zwartos-oslist.txt"; RM="README.md"
 UA="Mozilla/5.0 (zwartos-bot)"
-newest(){ curl -A "$UA" -sL --max-time 45 "$1" 2>/dev/null | grep -oE "$2" | sort -Vu | tail -1; }
+# Nama berkas berasal dari HTML mirror pihak ketiga. Batasi ke karakter
+# nama berkas yang wajar supaya tidak ada yang bisa menyuntikkan "|" atau
+# baris baru ke dalam daftar OS lewat mirror yang disusupi.
+newest(){ curl -A "$UA" -sL --max-time 45 "$1" 2>/dev/null | grep -oE "$2" \
+           | grep -xE "[A-Za-z0-9._+-]{1,120}" | sort -Vu | tail -1; }
 code_of(){ curl -A "$UA" -sIL --max-time 45 -o /dev/null -w '%{http_code}' "$1" 2>/dev/null; }
 gh_iso(){ curl -A "$UA" -sL --max-time 45 "https://api.github.com/repos/$1/releases/latest" 2>/dev/null | grep -oE 'https://[^"]+\.iso' | grep -iE "$2" | sort -Vu | tail -1; }
 bump(){ local t; t=$(mktemp); awk -v p="$1" -v nl="$2" 'BEGIN{d=0}{ if(!d && index($0,p)==1){print nl; d=1} else print }' "$F" > "$t" && mv "$t" "$F"; }
