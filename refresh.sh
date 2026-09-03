@@ -14,13 +14,13 @@ code2(){ local c; c=$(code_of "$1"); case "$c" in 200|302) ;; *) c=$(code_of "$1
 
 echo "== tugas 1: cari versi terbaru (bump) =="
 ob="https://cdn.openbsd.org/pub/OpenBSD/"; ov=$(newest "$ob" '7\.[0-9]/'); ov=${ov%/}
-if [ -n "$ov" ]; then n=$(echo "$ov"|tr -d '.'); u="${ob}${ov}/amd64/install${n}.iso"; [ "$(code_of "$u")" = 200 ] && { bump "OpenBSD" "OpenBSD (~800MB)                 | ${u}"; echo "  OpenBSD -> $ov"; }; fi
+if [ -n "$ov" ]; then n=$(echo "$ov"|tr -d '.'); u="${ob}${ov}/amd64/install${n}.iso"; [ "$(code_of "$u")" = 200 ] && {  bump "OpenBSD" "OpenBSD / install (~800MB)                   | ${u}"; echo "  OpenBSD -> $ov"; }; fi
 tb="https://download.tails.net/tails/stable/"; ts=$(newest "$tb" 'tails-amd64-[0-9.]+/'); ts=${ts%/}
-if [ -n "$ts" ]; then u="${tb}${ts}/${ts}.iso"; [ "$(code_of "$u")" = 200 ] && { bump "Tails" "Tails (~1.7GB)                   | ${u}"; echo "  Tails -> $ts"; }; fi
+if [ -n "$ts" ]; then u="${tb}${ts}/${ts}.iso"; [ "$(code_of "$u")" = 200 ] && {  bump "Tails" "Tails / ISO terbaru (~1.7GB)                 | ${u}"; echo "  Tails -> $ts"; }; fi
 cb="https://mirror.cachyos.org/ISO/desktop/"; cs=$(newest "$cb" '[0-9]{6}/'); cs=${cs%/}
-if [ -n "$cs" ]; then u="${cb}${cs}/cachyos-desktop-linux-${cs}.iso"; [ "$(code_of "$u")" = 200 ] && { bump "CachyOS" "CachyOS (~3.0GB)                 | ${u}"; echo "  CachyOS -> $cs"; }; fi
+if [ -n "$cs" ]; then u="${cb}${cs}/cachyos-desktop-linux-${cs}.iso"; [ "$(code_of "$u")" = 200 ] && {  bump "CachyOS" "CachyOS / Desktop (~3.0GB)                   | ${u}"; echo "  CachyOS -> $cs"; }; fi
 su=$(gh_iso "PartialVolume/shredos.x86_64" 'plus-partition\.iso'); [ -z "$su" ] && su=$(gh_iso "PartialVolume/shredos.x86_64" '\.iso')
-[ -n "$su" ] && [ "$(code_of "$su")" = 200 ] && { bump "ShredOS" "ShredOS wipe (~394MB)            | ${su}"; echo "  ShredOS -> bump"; }
+[ -n "$su" ] && [ "$(code_of "$su")" = 200 ] && {  bump "ShredOS" "ShredOS / wipe (~394MB)                      | ${su}"; echo "  ShredOS -> bump"; }
 
 echo "== tugas 2: validasi + susun blok =="
 TSV=$(mktemp); : > "$TSV"; cat="Lainnya"; ok=0; warn=0; bad=0
@@ -50,8 +50,10 @@ printf '**Diperiksa robot:** %s — ✅ Aktif: **%s** · ⚠️ Diragukan: **%s*
 {
   awk -F'\t' '!seen[$1]++{print $1}' "$TSV" | while IFS= read -r c; do
     echo; echo "### ${c}"; echo
-    echo "| OS | Status | Tipe |"; echo "|---|:---:|:---:|"
-    awk -F'\t' -v c="$c" '$1==c{printf "| %s | %s | %s |\n",$2,$4,$3}' "$TSV"
+    echo "| Distro | Varian / Versi | Status | Tipe |"; echo "|---|---|:---:|:---:|"
+    awk -F'\t' -v c="$c" '$1==c{ n=$2; d=n; rest="-";
+        i=index(n," / "); if(i>0){ d=substr(n,1,i-1); rest=substr(n,i+3) }
+        printf "| %s | %s | %s | %s |\n", d, rest, $4, $3 }' "$TSV"
   done
 } > /tmp/oslist.md
 
