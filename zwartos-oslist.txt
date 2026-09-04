@@ -143,3 +143,16 @@ Grml / small (~400MB)                        | https://download.grml.org/ | grml
 Kaspersky Rescue / krd (~677MB)              | https://rescuedisk.s.kaspersky-labs.com/updatable/2018/krd.iso
 ShredOS / wipe (~394MB)                      | https://github.com/PartialVolume/shredos.x86_64/releases/download/v2025.11_31_x86-64_0.42/shredos-2025.11_31_x86-64_v0.42_20260716_plus-partition.iso
 Redo Rescue / terbaru (~700MB)               | https://sourceforge.net/projects/redobackup/files/latest/download
+
+# ===================== WINDOWS & LAINNYA =====================
+# Windows: Microsoft tidak menyediakan link ISO Windows 10/11 biasa yang tetap -
+# halaman unduhannya butuh sesi browser. Yang PUNYA link resmi tetap adalah
+# edisi Evaluation (gratis, legal, masa coba 180 hari) di bawah ini.
+Windows Server / 2025 Evaluation (~5.6GB)    | https://go.microsoft.com/fwlink/p/?linkid=2293312
+Windows Server / 2022 Evaluation (~4.7GB)    | https://go.microsoft.com/fwlink/p/?linkid=2195280
+Hirens BootCD PE / berbasis Windows (~3.1GB) | https://www.hirensbootcd.org/files/HBCD_PE_x64.iso
+# ChromeOS Flex resmi berbentuk .bin.zip (citra disk, BUKAN ISO). Bisa diunduh
+# ke flashdisk, tapi harus diekstrak & ditulis ke disk dengan alat lain -
+# Ventoy tidak bisa mem-boot-nya langsung.
+ChromeOS Flex / recovery .bin.zip (~1.2GB)   | https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16733.57.0_reven_recovery_stable-channel_RevenMPKeys-v11.bin.zip
+netboot.xyz / boot ~100 OS lewat jaringan (~2MB) | https://boot.netboot.xyz/ipxe/netboot.xyz.iso
