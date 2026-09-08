@@ -2,19 +2,27 @@
 # -*- coding: utf-8 -*-
 """Ubah halaman peringkat DistroWatch jadi daftar yang dibaca ZWARTOS.
 
-Dipakai dua arah:
-  dw-rank.py parse <berkas.html> <kategori>   -> baris peringkat ke stdout
-  dw-rank.py slugs <berkas.html>              -> daftar semua distro + slug
+  dw-rank.py parse   <berkas.html> <kategori>   halaman index.php?dataspan=…
+  dw-rank.py ranking <berkas.html> <kategori>   halaman dwres.php?resource=ranking
+  dw-rank.py slugs   <berkas.html>              daftar semua distro + slug
 
 Keluaran per baris, dipisah TAB:
     kategori  peringkat  slug  nama  nilai
 
-JEBAKAN yang sudah memakan satu putaran: halaman yang disimpan lewat Ctrl+S
-di browser TIDAK sama dengan yang dikirim server. Browser merapikan spasi dan
-**mengubah tautan relatif jadi absolut** - `href="mint"` menjadi
-`href="https://distrowatch.com/mint"`. Pola di bawah karena itu sengaja
-longgar: menerima kedua bentuk href, tidak peduli spasi antar-tag, dan tidak
-mengunci `th` atau `td`.
+DUA HALAMAN, DUA BENTUK:
+
+* `index.php?dataspan=…` memakai tabel `phr1/phr2/phr3` — dipakai untuk
+  peringkat kunjungan (30 hari, 12 bulan) dan tren. Nilai `score` di situ
+  adalah **Most Ratings** (urut BANYAKNYA penilaian), bukan rata-rata:
+  sudah dicocokkan baris demi baris dengan layar "Most Ratings" milik pemilik.
+* `dwres.php?resource=ranking&sort=average` memakai tabel berbeda — tiap baris
+  memuat `<a href="slug">Nama</a>` dan tautan `resource=ratings&distro=slug`
+  berisi nilai rata-ratanya. Ini satu-satunya sumber "Average Rating".
+
+JEBAKAN: halaman yang disimpan lewat Ctrl+S di browser TIDAK sama dengan yang
+dikirim server — spasi dirapikan dan tautan relatif diubah jadi absolut
+(`href="mint"` menjadi `href="https://distrowatch.com/mint"`). Semua pola di
+bawah karena itu sengaja longgar terhadap kedua bentuk.
 """
 import io
 import re
@@ -27,15 +35,13 @@ ROW = re.compile(
     re.S,
 )
 
-# Dropdown distro: <option value="mint">Linux Mint</option>. Slug boleh diawali
-# angka - ada "3cx" dan "4mlinux" - jadi jangan mensyaratkan huruf di depan.
+TR = re.compile(r'<tr[^>]*>(.*?)</tr>', re.S)
+LINK_DISTRO = re.compile(r'<a[^>]*href="(?:https?://(?:www\.)?distrowatch\.com/)?([a-z0-9][a-z0-9._-]*)"[^>]*>([^<]+)</a>')
+NILAI_RATING = re.compile(r'resource=ratings(?:&amp;|&)distro=[a-z0-9._-]+"[^>]*>\s*([0-9.]+)\s*<')
+SEL_ANGKA = re.compile(r'<td[^>]*>\s*([0-9]+)\s*</td>', re.S)
+
 OPT = re.compile(r'<option value="([a-z0-9][a-z0-9._-]*)">([^<]+)</option>')
-
-# Nilai dataspan memakai <select> yang bentuknya sama: angka murni (tahun,
-# "52", "4"), "score", dan "trending-N". Semuanya dibuang - tapi angka murni
-# saja, supaya "3cx" dan "4mlinux" tetap lolos.
-BUKAN_SLUG = re.compile(r'^(\d+|score|trending-\d+)$')
-
+BUKAN_SLUG = re.compile(r'^(\d+|score|trending-\d+|votes|average)$')
 TAG = re.compile(r'<[^>]+>')
 
 
@@ -44,32 +50,51 @@ def baca(path):
 
 
 def bersih(teks):
-    """Buang tag sisa dan pulihkan entitas HTML pada nama distro."""
     teks = TAG.sub("", teks)
-    for ent, ch in (
-        ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
-        ("&quot;", '"'), ("&#39;", "'"), ("&nbsp;", " "),
-    ):
+    for ent, ch in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
+                    ("&quot;", '"'), ("&#39;", "'"), ("&nbsp;", " ")):
         teks = teks.replace(ent, ch)
     return " ".join(teks.split())
 
 
 def slug_dari(href):
-    """'https://distrowatch.com/mint', '/mint', 'mint' -> 'mint'."""
-    href = href.strip()
-    href = re.sub(r'^https?://(www\.)?distrowatch\.com/', "", href)
+    href = re.sub(r'^https?://(www\.)?distrowatch\.com/', "", href.strip())
     return href.strip("/").split("?")[0].split("#")[0]
 
 
 def parse(path, kategori):
     baris = []
     for rank, href, nama, nilai in ROW.findall(baca(path)):
-        slug = slug_dari(href)
-        nama = bersih(nama)
-        if not slug or not nama:
+        slug, nama = slug_dari(href), bersih(nama)
+        if slug and nama:
+            baris.append("%s\t%s\t%s\t%s\t%s" % (
+                kategori, rank, slug, nama, bersih(nilai) or "-"))
+    return baris
+
+
+def ranking(path, kategori):
+    """Halaman dwres.php?resource=ranking (Most Ratings / Average Rating).
+
+    Nomor peringkat tidak selalu ada di markup-nya, jadi dipakai urutan baris -
+    itu memang arti peringkat di halaman tersebut.
+    """
+    baris, n = [], 0
+    for isi in TR.findall(baca(path)):
+        if "resource=ratings" not in isi:
             continue
-        baris.append("%s\t%s\t%s\t%s\t%s" % (
-            kategori, rank, slug, nama, bersih(nilai) or "-"))
+        m = LINK_DISTRO.search(isi)
+        if not m:
+            continue
+        slug, nama = m.group(1), bersih(m.group(2))
+        if not slug or not nama or slug in ("dwres.php", "index.php"):
+            continue
+        v = NILAI_RATING.search(isi)
+        nilai = v.group(1) if v else ""
+        if not nilai:
+            angka = SEL_ANGKA.findall(isi)
+            nilai = angka[-1] if angka else "-"
+        n += 1
+        baris.append("%s\t%d\t%s\t%s\t%s" % (kategori, n, slug, nama, nilai))
     return baris
 
 
@@ -87,10 +112,10 @@ def main():
     if len(sys.argv) < 3:
         sys.exit(__doc__)
     perintah, path = sys.argv[1], sys.argv[2]
-    if perintah == "parse":
+    if perintah in ("parse", "ranking"):
         if len(sys.argv) < 4:
             sys.exit("butuh nama kategori")
-        hasil = parse(path, sys.argv[3])
+        hasil = (parse if perintah == "parse" else ranking)(path, sys.argv[3])
     elif perintah == "slugs":
         hasil = slugs(path)
     else:
