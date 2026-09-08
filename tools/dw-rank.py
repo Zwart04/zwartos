@@ -6,38 +6,37 @@ Dipakai dua arah:
   dw-rank.py parse <berkas.html> <kategori>   -> baris peringkat ke stdout
   dw-rank.py slugs <berkas.html>              -> daftar semua distro + slug
 
-Struktur yang dibaca (sudah diverifikasi pada halaman asli yang disimpan
-pemilik, 8 Sep 2026):
-
-    <th class="phr1">1 </th>
-    <td class="phr2"><a href="https://distrowatch.com/mint">Linux Mint</a></td>
-    <td class="phr3">8.87</td>
-
-Kolom phr3 berisi rating (mode "Average Rating") atau jumlah kunjungan
-(mode peringkat harian) - keduanya disimpan apa adanya sebagai "nilai".
-
 Keluaran per baris, dipisah TAB:
     kategori  peringkat  slug  nama  nilai
+
+JEBAKAN yang sudah memakan satu putaran: halaman yang disimpan lewat Ctrl+S
+di browser TIDAK sama dengan yang dikirim server. Browser merapikan spasi dan
+**mengubah tautan relatif jadi absolut** - `href="mint"` menjadi
+`href="https://distrowatch.com/mint"`. Pola di bawah karena itu sengaja
+longgar: menerima kedua bentuk href, tidak peduli spasi antar-tag, dan tidak
+mengunci `th` atau `td`.
 """
 import io
 import re
 import sys
 
 ROW = re.compile(
-    r'<th class="phr1">\s*(\d+)\s*</th>\s*'
-    r'<td class="phr2">\s*<a href="https://distrowatch\.com/([^"]+)">([^<]+)</a>\s*</td>\s*'
-    r'<td class="phr3">\s*([^<]*?)\s*</td>'
+    r'<t[hd][^>]*class="phr1"[^>]*>\s*(\d+)[^<]*</t[hd]>\s*'
+    r'<t[hd][^>]*class="phr2"[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>\s*</t[hd]>\s*'
+    r'<t[hd][^>]*class="phr3"[^>]*>\s*(.*?)\s*</t[hd]>',
+    re.S,
 )
 
-# Dropdown distro di halaman DistroWatch: <option value="mint">Linux Mint</option>.
-# Slug boleh diawali angka - ada "3cx" dan "4mlinux" - jadi jangan mensyaratkan
-# huruf di depan.
+# Dropdown distro: <option value="mint">Linux Mint</option>. Slug boleh diawali
+# angka - ada "3cx" dan "4mlinux" - jadi jangan mensyaratkan huruf di depan.
 OPT = re.compile(r'<option value="([a-z0-9][a-z0-9._-]*)">([^<]+)</option>')
 
-# Nilai dataspan memakai <select> yang sama bentuknya: angka murni (tahun,
-# "52", "4"), "score", dan "trending-N". Semuanya harus dibuang, tapi angka
-# murni saja - "3cx" dan "4mlinux" tetap lolos.
+# Nilai dataspan memakai <select> yang bentuknya sama: angka murni (tahun,
+# "52", "4"), "score", dan "trending-N". Semuanya dibuang - tapi angka murni
+# saja, supaya "3cx" dan "4mlinux" tetap lolos.
 BUKAN_SLUG = re.compile(r'^(\d+|score|trending-\d+)$')
+
+TAG = re.compile(r'<[^>]+>')
 
 
 def baca(path):
@@ -45,20 +44,32 @@ def baca(path):
 
 
 def bersih(teks):
-    """DistroWatch memakai entitas HTML pada beberapa nama distro."""
+    """Buang tag sisa dan pulihkan entitas HTML pada nama distro."""
+    teks = TAG.sub("", teks)
     for ent, ch in (
         ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
         ("&quot;", '"'), ("&#39;", "'"), ("&nbsp;", " "),
     ):
         teks = teks.replace(ent, ch)
-    return teks.strip()
+    return " ".join(teks.split())
+
+
+def slug_dari(href):
+    """'https://distrowatch.com/mint', '/mint', 'mint' -> 'mint'."""
+    href = href.strip()
+    href = re.sub(r'^https?://(www\.)?distrowatch\.com/', "", href)
+    return href.strip("/").split("?")[0].split("#")[0]
 
 
 def parse(path, kategori):
     baris = []
-    for rank, slug, nama, nilai in ROW.findall(baca(path)):
+    for rank, href, nama, nilai in ROW.findall(baca(path)):
+        slug = slug_dari(href)
+        nama = bersih(nama)
+        if not slug or not nama:
+            continue
         baris.append("%s\t%s\t%s\t%s\t%s" % (
-            kategori, rank, slug, bersih(nama), bersih(nilai) or "-"))
+            kategori, rank, slug, nama, bersih(nilai) or "-"))
     return baris
 
 
