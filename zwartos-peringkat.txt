@@ -1,0 +1,36 @@
+# peringkat distro dari DistroWatch - dibuat otomatis, jangan disunting tangan
+# kolom: kategori<TAB>peringkat<TAB>slug<TAB>nama<TAB>nilai
+Rating tertinggi	1	mint	Linux Mint	8.87
+Rating tertinggi	2	mx	MX Linux	8.11
+Rating tertinggi	3	opensuse	openSUSE	8.51
+Rating tertinggi	4	debian	Debian	9
+Rating tertinggi	5	cachyos	CachyOS	8.12
+Rating tertinggi	6	manjaro	Manjaro Linux	8.26
+Rating tertinggi	7	fedora	Fedora	8.33
+Rating tertinggi	8	endeavour	EndeavourOS	8.56
+Rating tertinggi	9	ubuntu	Ubuntu	7.78
+Rating tertinggi	10	zorin	Zorin OS	8.61
+Rating tertinggi	11	popos	Pop!_OS	7.88
+Rating tertinggi	12	arch	Arch Linux	9.14
+Rating tertinggi	13	void	Void	9.11
+Rating tertinggi	14	garuda	Garuda Linux	8.5
+Rating tertinggi	15	solus	Solus	7.77
+Rating tertinggi	16	artix	Artix Linux	9.14
+Rating tertinggi	17	q4os	Q4OS	8.76
+Rating tertinggi	18	elementary	elementary OS	5.19
+Rating tertinggi	19	devuan	Devuan GNU+Linux	8.98
+Rating tertinggi	20	truenas	TrueNAS	9.11
+Rating tertinggi	21	deepin	deepin	8.14
+Rating tertinggi	22	kdeneon	KDE neon	7.88
+Rating tertinggi	23	antix	antiX	8.44
+Rating tertinggi	24	slackware	Slackware Linux	9.08
+Rating tertinggi	25	mageia	Mageia	8.51
+Rating tertinggi	26	lite	Linux Lite	7.99
+Rating tertinggi	27	biglinux	BigLinux	9.05
+Rating tertinggi	28	nobara	Nobara Project	8.18
+Rating tertinggi	29	pclinuxos	PCLinuxOS	8.17
+Rating tertinggi	30	kubuntu	Kubuntu	8.27
+Rating tertinggi	31	sparky	SparkyLinux	8.26
+Rating tertinggi	32	nixos	NixOS	8.98
+Rating tertinggi	33	arco	ArcoLinux	8.38
+Rating tertinggi	34	peppermint	Peppermint OS	7.55

@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write        # cuma isi repo; tidak menyentuh Actions/packages/OIDC
 concurrency:
-  group: refresh-oslist   # jangan sampai dua jadwal jalan bersamaan
+  group: zwartos-bot   # samakan dengan refresh-peringkat: dua bot jangan jalan bersamaan
   cancel-in-progress: false
 jobs:
   refresh:

@@ -155,4 +155,9 @@ Hirens BootCD PE / berbasis Windows (~3.1GB) | https://www.hirensbootcd.org/file
 # ke flashdisk, tapi harus diekstrak & ditulis ke disk dengan alat lain -
 # Ventoy tidak bisa mem-boot-nya langsung.
 ChromeOS Flex / recovery .bin.zip (~1.2GB)   | https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16733.57.0_reven_recovery_stable-channel_RevenMPKeys-v11.bin.zip
-netboot.xyz / boot ~100 OS lewat jaringan (~2MB) | https://boot.netboot.xyz/ipxe/netboot.xyz.iso
+# netboot.xyz WAJIB kabel LAN. Dokumen resminya: "A hard wired ethernet
+# connection (WiFi networking is not supported)". Isinya iPXE, yang tidak
+# punya driver WiFi sama sekali, dan menunya pun diunduh dari internet saat
+# boot - jadi di laptop tanpa colokan LAN dia PASTI gagal. Untuk WiFi,
+# pakai ZWARTOS saja: unduh ISO-nya lalu boot dari Ventoy.
+netboot.xyz / HARUS kabel LAN, tidak jalan pakai WiFi (~2MB) | https://boot.netboot.xyz/ipxe/netboot.xyz.iso
