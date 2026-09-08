@@ -34,8 +34,8 @@ fi
 # CATATAN: dataspan=score itu "Most Ratings" (urut BANYAKNYA penilaian) -
 # sudah dicocokkan baris demi baris dengan halaman aslinya. Rata-rata
 # sesungguhnya hanya ada di resource=ranking&sort=average.
-SUMBER="https://distrowatch.com/index.php?dataspan=score	parse	Rating terbanyak
-https://distrowatch.com/dwres.php?resource=ranking&sort=average	ranking	Rating rata-rata
+SUMBER="https://distrowatch.com/dwres.php?resource=ranking&sort=votes	ranking	Rating terbanyak
+https://distrowatch.com/index.php?dataspan=score	parse	Rating rata-rata
 https://distrowatch.com/index.php?dataspan=4	parse	Terpopuler 30 hari
 https://distrowatch.com/index.php?dataspan=52	parse	Terpopuler 12 bulan
 https://distrowatch.com/index.php?dataspan=trending-4	parse	Sedang naik daun 30 hari
@@ -64,6 +64,7 @@ printf '%s\n' "$SUMBER" | while IFS='	' read -r url mode nama; do
   # berkas rusak, dan kegagalannya harus bisa didiagnosis tanpa menebak.
   if python3 "$PARSER" "$mode" "$TMP/p.html" "$nama" >> "$TMP/hasil" 2>/dev/null; then
     echo "    ok" >&2
+    python3 "$PARSER" "$mode" "$TMP/p.html" "$nama" 2>/dev/null | head -3 | cut -f2,4,5 | sed "s/^/      /" >&2
   else
     echo "    ! struktur tidak dikenali - dilewati" >&2
     echo "      phr1=$(grep -c phr1 "$TMP/p.html" || true) ratings=$(grep -c 'resource=ratings' "$TMP/p.html" || true)" >&2
