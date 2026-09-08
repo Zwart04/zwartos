@@ -49,9 +49,14 @@ printf '%s\n' "$SPANS" | while IFS=: read -r span nama; do
   [ "$PERTAMA" = 1 ] || sleep "$JEDA"
   PERTAMA=0
   echo "  ambil dataspan=$span ($nama)" >&2
-  if ! curl -sS --fail --compressed -A "$UA" --max-time 60 \
-        "https://distrowatch.com/index.php?dataspan=$span" -o "$TMP/p.html"; then
-    echo "  ! gagal mengambil $span - dilewati" >&2
+  CODE=$(curl -sS --compressed -A "$UA" --max-time 60 -w "%{http_code}" \
+         "https://distrowatch.com/index.php?dataspan=$span" -o "$TMP/p.html" || echo 000)
+  UKURAN=$(wc -c < "$TMP/p.html" 2>/dev/null || echo 0)
+  echo "  http=$CODE ukuran=$UKURAN byte" >&2
+  if [ "$CODE" != 200 ] || [ "$UKURAN" -lt 2000 ]; then
+    echo "  ! halaman tidak wajar - dilewati" >&2
+    head -c 300 "$TMP/p.html" 2>/dev/null | tr "\n" " " | sed "s/^/    cuplikan: /" >&2
+    echo >&2
     continue
   fi
   # Kalau struktur halaman berubah, parser keluar dengan galat dan kategori ini
@@ -59,7 +64,12 @@ printf '%s\n' "$SPANS" | while IFS=: read -r span nama; do
   if python3 "$PARSER" parse "$TMP/p.html" "$nama" >> "$TMP/hasil" 2>/dev/null; then
     echo "  ok" >&2
   else
+    # cetak petunjuk supaya kegagalan bisa didiagnosis dari log, bukan ditebak
     echo "  ! struktur halaman $span tidak dikenali - dilewati" >&2
+    echo "    phr1=$(grep -c phr1 "$TMP/p.html" 2>/dev/null) phr3=$(grep -c phr3 "$TMP/p.html" 2>/dev/null)" >&2
+    echo "    judul: $(sed -n 's|.*<title>\(.*\)</title>.*|\1|p' "$TMP/p.html" 2>/dev/null | head -1)" >&2
+    head -c 300 "$TMP/p.html" 2>/dev/null | tr "\n" " " | sed "s/^/    cuplikan: /" >&2
+    echo >&2
   fi
 done
 
