@@ -1,0 +1,36 @@
+name: refresh-peringkat
+on:
+  schedule:
+    - cron: '41 5 * * *'   # tiap hari 05:41 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write        # cuma isi repo; tidak menyentuh Actions/packages/OIDC
+concurrency:
+  # SATU grup dengan refresh-oslist: dua bot di repo yang sama tidak boleh
+  # jalan bersamaan, kalau tidak salah satu pushnya ditolak karena tertinggal.
+  group: zwartos-bot
+  cancel-in-progress: false
+jobs:
+  peringkat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ambil peringkat DistroWatch
+        # 5 permintaan, jeda 15 detik (Crawl-Delay di robots.txt mereka).
+        # Skripnya menolak menimpa berkas lama kalau hasilnya kurang dari 20
+        # baris, jadi halaman yang berubah struktur tidak merusak daftar.
+        run: bash tools/dw-fetch.sh zwartos-peringkat.txt
+      - name: Commit perubahan
+        run: |
+          git config user.name "zwartos-bot"
+          git config user.email "zwartos-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain zwartos-peringkat.txt)" ]; then
+            git add zwartos-peringkat.txt
+            git commit -m "robot: perbarui peringkat DistroWatch ($(date -u '+%Y-%m-%d'))"
+            # tarik dulu kalau bot daftar-OS sempat push duluan
+            git pull --rebase --autostash origin main
+            git push
+          else
+            echo "peringkat tidak berubah"
+          fi
