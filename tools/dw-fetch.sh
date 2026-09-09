@@ -7,7 +7,7 @@
 #  pemakai tidak pernah menyentuh DistroWatch sama sekali.
 #
 #  SOPAN SANTUN (robots.txt DistroWatch mensyaratkan Crawl-Delay: 15):
-#    - 6 permintaan per hari, jeda 15 detik di antaranya
+#    - 9 permintaan per hari, jeda 15 detik di antaranya (~2 menit)
 #    - User-Agent menyebut identitas dan alamat proyek
 #  Jangan menambah jumlah permintaan tanpa menaikkan jeda.
 #
@@ -36,7 +36,10 @@ fi
 # sesungguhnya hanya ada di resource=ranking&sort=average.
 SUMBER="https://distrowatch.com/dwres.php?resource=ranking&sort=votes	ranking	Rating terbanyak
 https://distrowatch.com/index.php?dataspan=score	parse	Rating rata-rata
+https://distrowatch.com/index.php?dataspan=1	parse	Terpopuler 7 hari
 https://distrowatch.com/index.php?dataspan=4	parse	Terpopuler 30 hari
+https://distrowatch.com/index.php?dataspan=13	parse	Terpopuler 3 bulan
+https://distrowatch.com/index.php?dataspan=26	parse	Terpopuler 6 bulan
 https://distrowatch.com/index.php?dataspan=52	parse	Terpopuler 12 bulan
 https://distrowatch.com/index.php?dataspan=trending-4	parse	Sedang naik daun 30 hari
 https://distrowatch.com/index.php?dataspan=trending-52	parse	Sedang naik daun 12 bulan"
