@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-09-07 08:28 UTC — ✅ Aktif: **123** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **124**
+**Diperiksa robot:** 2026-09-14 09:04 UTC — ✅ Aktif: **123** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -173,7 +173,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Rescuezilla | 2.6.2 (~1.5GB) | ✅ | link |
 | Grml | full (~800MB) | ✅ | auto |
 | Grml | small (~400MB) | ✅ | auto |
-| Kaspersky Rescue | krd (~677MB) | ✅ | link |
+| Kaspersky Rescue | krd (~677MB) | ⚠️ | link |
 | ShredOS | wipe (~394MB) | ✅ | link |
 | Redo Rescue | terbaru (~700MB) | ✅ | link |
 
@@ -183,7 +183,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 |---|---|:---:|:---:|
 | Windows Server | 2025 Evaluation (~5.6GB) | ✅ | link |
 | Windows Server | 2022 Evaluation (~4.7GB) | ✅ | link |
-| Hirens BootCD PE | berbasis Windows (~3.1GB) | ⚠️ | link |
+| Hirens BootCD PE | berbasis Windows (~3.1GB) | ✅ | link |
 | ChromeOS Flex | recovery .bin.zip (~1.2GB) | ✅ | link |
-| netboot.xyz | boot ~100 OS lewat jaringan (~2MB) | ✅ | link |
+| netboot.xyz | HARUS kabel LAN, tidak jalan pakai WiFi (~2MB) | ✅ | link |
 <!-- OSLIST:END -->
