@@ -24,8 +24,8 @@ Rating terbanyak	21	deepin	deepin	8.14
 Rating terbanyak	22	kdeneon	KDE neon	7.88
 Rating terbanyak	23	antix	antiX	8.44
 Rating terbanyak	24	slackware	Slackware	9.08
-Rating terbanyak	25	mageia	Mageia	8.51
-Rating terbanyak	26	lite	Lite	7.99
+Rating terbanyak	25	lite	Lite	7.99
+Rating terbanyak	26	mageia	Mageia	8.51
 Rating terbanyak	27	biglinux	BigLinux	9.05
 Rating terbanyak	28	nobara	Nobara	8.18
 Rating terbanyak	29	pclinuxos	PCLinuxOS	8.17
@@ -55,19 +55,19 @@ Rating terbanyak	52	rocky	Rocky	9.02
 Rating terbanyak	53	bazzite	Bazzite	8.5
 Rating terbanyak	54	spiral	SpiralLinux	9.07
 Rating terbanyak	55	alpine	Alpine	8.98
-Rating terbanyak	56	ultramarine	Ultramarine	8.07
-Rating terbanyak	57	openbsd	OpenBSD	8.81
-Rating terbanyak	58	omarchy	Omarchy	8.83
+Rating terbanyak	56	omarchy	Omarchy	8.84
+Rating terbanyak	57	ultramarine	Ultramarine	8.07
+Rating terbanyak	58	openbsd	OpenBSD	8.81
 Rating terbanyak	59	ferenos	Feren	8.8
 Rating terbanyak	60	kodachi	Kodachi	7.52
 Rating terbanyak	61	commodore	Commodore	8.72
-Rating terbanyak	62	kali	Kali	9.35
-Rating terbanyak	63	rebornos	RebornOS	8.1
-Rating terbanyak	64	pikaos	PikaOS	9.02
+Rating terbanyak	62	pikaos	PikaOS	9.04
+Rating terbanyak	63	kali	Kali	9.35
+Rating terbanyak	64	rebornos	RebornOS	8.1
 Rating terbanyak	65	siduction	siduction	8.37
-Rating terbanyak	66	qubes	Qubes	8.89
-Rating terbanyak	67	gecko	Gecko	8.55
-Rating terbanyak	68	elive	Elive	5.73
+Rating terbanyak	66	elive	Elive	5.82
+Rating terbanyak	67	qubes	Qubes	8.89
+Rating terbanyak	68	gecko	Gecko	8.55
 Rating terbanyak	69	anduin	AnduinOS	8.91
 Rating terbanyak	70	lxle	LXLE	8.31
 Rating terbanyak	71	nomadbsd	NomadBSD	7.88
@@ -503,7 +503,7 @@ Rating rata-rata	22	sparky	SparkyLinux	8.26
 Rating rata-rata	23	nobara	Nobara Project	8.18
 Rating rata-rata	24	pclinuxos	PCLinuxOS	8.17
 Rating rata-rata	25	deepin	deepin	8.14
-Rating rata-rata	26	cachyos	CachyOS	8.12
+Rating rata-rata	26	cachyos	CachyOS	8.13
 Rating rata-rata	27	mx	MX Linux	8.11
 Rating rata-rata	28	lite	Linux Lite	7.99
 Rating rata-rata	29	kdeneon	KDE neon	7.88
@@ -512,296 +512,296 @@ Rating rata-rata	31	ubuntu	Ubuntu	7.78
 Rating rata-rata	32	solus	Solus	7.78
 Rating rata-rata	33	peppermint	Peppermint OS	7.55
 Rating rata-rata	34	elementary	elementary OS	5.18
-Terpopuler 7 hari	1	cachyos	CachyOS	2390
-Terpopuler 7 hari	2	mint	Mint	1576
+Terpopuler 7 hari	1	cachyos	CachyOS	2364
+Terpopuler 7 hari	2	mint	Mint	1573
 Terpopuler 7 hari	3	mx	MX Linux	1356
-Terpopuler 7 hari	4	omarchy	Omarchy	1200
-Terpopuler 7 hari	5	debian	Debian	1189
-Terpopuler 7 hari	6	ubuntu	Ubuntu	1023
-Terpopuler 7 hari	7	popos	Pop!_OS	975
-Terpopuler 7 hari	8	fedora	Fedora	944
-Terpopuler 7 hari	9	pikaos	PikaOS	880
-Terpopuler 7 hari	10	zorin	Zorin	815
-Terpopuler 7 hari	11	spaced	Spaced	776
-Terpopuler 7 hari	12	manjaro	Manjaro	752
-Terpopuler 7 hari	13	bazzite	Bazzite	699
-Terpopuler 7 hari	14	endeavour	EndeavourOS	693
-Terpopuler 7 hari	15	q4os	Q4OS	579
-Terpopuler 7 hari	16	biglinux	BigLinux	533
-Terpopuler 7 hari	17	artix	Artix	499
-Terpopuler 7 hari	18	opensuse	openSUSE	491
-Terpopuler 7 hari	19	freebsd	FreeBSD	479
-Terpopuler 7 hari	20	arch	Arch	470
-Terpopuler 7 hari	21	anduin	AnduinOS	463
-Terpopuler 7 hari	22	void	Void	456
-Terpopuler 7 hari	23	pulsar	Pulsar	452
-Terpopuler 7 hari	24	openkylin	openKylin	439
-Terpopuler 7 hari	25	tuxedo	TUXEDO	433
-Terpopuler 7 hari	26	desert	DESERT	422
-Terpopuler 7 hari	27	pearos	pearOS	417
-Terpopuler 7 hari	28	antix	antiX	414
-Terpopuler 7 hari	29	nobara	Nobara	370
-Terpopuler 7 hari	30	nawaos	NawaOS	369
-Terpopuler 7 hari	31	nixos	NixOS	368
-Terpopuler 7 hari	32	soplos	Soplos	366
-Terpopuler 7 hari	33	mocaccinoos	MocaccinoOS	363
-Terpopuler 7 hari	34	stormos	StormOS	341
-Terpopuler 7 hari	35	linuxconsole	LinuxConsole	326
-Terpopuler 7 hari	36	berserkarch	Berserk Arch	324
-Terpopuler 7 hari	37	chromeos	ChromeOS	323
-Terpopuler 7 hari	38	margine	Margine	323
-Terpopuler 7 hari	39	enigmarsos	EnigmarsOS	320
-Terpopuler 7 hari	40	fydeos	FydeOS	319
-Terpopuler 7 hari	41	reactos	ReactOS	313
-Terpopuler 7 hari	42	shadowfetch	Shadowfetch	309
-Terpopuler 7 hari	43	elementary	elementary	306
-Terpopuler 7 hari	44	slimbookos	Slimbook OS	305
-Terpopuler 7 hari	45	zenwalk	Zenwalk	301
-Terpopuler 7 hari	46	4mlinux	4MLinux	299
-Terpopuler 7 hari	47	kaos	KaOS	295
-Terpopuler 7 hari	48	flinux	FLinux	294
-Terpopuler 7 hari	49	archbang	ArchBANG	289
-Terpopuler 7 hari	50	hackeros	HackerOS	289
-Terpopuler 7 hari	51	deblinux	Deblinux	285
-Terpopuler 7 hari	52	kubuntu	Kubuntu	285
-Terpopuler 7 hari	53	xray	Xray_OS	282
-Terpopuler 7 hari	54	xubuntu	Xubuntu	276
-Terpopuler 7 hari	55	exton	Exton	273
-Terpopuler 7 hari	56	q83	Linux Q83	268
-Terpopuler 7 hari	57	mabox	Mabox	268
-Terpopuler 7 hari	58	lilidog	Lilidog	257
-Terpopuler 7 hari	59	vuudo	Vuu-do	251
-Terpopuler 7 hari	60	ditana	Ditana	245
-Terpopuler 7 hari	61	abora	Abora	244
-Terpopuler 7 hari	62	agarimos	AgarimOS	243
-Terpopuler 7 hari	63	starkos	starkOS	243
-Terpopuler 7 hari	64	devuan	Devuan	242
-Terpopuler 7 hari	65	minios	MiniOS	240
-Terpopuler 7 hari	66	pclinuxos	PCLinuxOS	239
-Terpopuler 7 hari	67	calamaroos	CalamaroOS	236
-Terpopuler 7 hari	68	solydxk	SolydXK	234
-Terpopuler 7 hari	69	nakedeb	nakeDeb	233
-Terpopuler 7 hari	70	garuda	Garuda	231
-Terpopuler 7 hari	71	rakuos	RakuOS	228
-Terpopuler 7 hari	72	mageia	Mageia	227
-Terpopuler 7 hari	73	lubuntu	Lubuntu	226
-Terpopuler 7 hari	74	abeiros	AbeirOS	225
-Terpopuler 7 hari	75	kali	Kali	225
-Terpopuler 7 hari	76	puppy	Puppy	225
-Terpopuler 7 hari	77	tromjaro	TROMjaro	220
-Terpopuler 7 hari	78	alpine	Alpine	219
-Terpopuler 7 hari	79	haos	HAOS	218
-Terpopuler 7 hari	80	genuen	Genuen	212
-Terpopuler 7 hari	81	solus	Solus	202
-Terpopuler 7 hari	82	lankeos	LankeOS	201
-Terpopuler 7 hari	83	fu11m00n	fu11m00n	200
-Terpopuler 7 hari	84	aerynos	AerynOS	197
-Terpopuler 7 hari	85	netdeep	Netdeep	197
-Terpopuler 7 hari	86	afagos	AfagOS	195
-Terpopuler 7 hari	87	kdeneon	KDE neon	188
-Terpopuler 7 hari	88	sparky	SparkyLinux	187
-Terpopuler 7 hari	89	gentoo	Gentoo	181
-Terpopuler 7 hari	90	slackware	Slackware	178
-Terpopuler 7 hari	91	velox	Velox	178
-Terpopuler 7 hari	92	netbsd	NetBSD	177
-Terpopuler 7 hari	93	steamos	SteamOS	177
-Terpopuler 7 hari	94	tails	Tails	176
-Terpopuler 7 hari	95	lite	Lite	174
-Terpopuler 7 hari	96	kdelinux	KDE Linux	173
-Terpopuler 7 hari	97	securityonion	Security Onion	170
-Terpopuler 7 hari	98	talos	Talos	170
-Terpopuler 7 hari	99	zimaos	ZimaOS	169
-Terpopuler 7 hari	100	pimersusos	PimersusOS	160
+Terpopuler 7 hari	4	debian	Debian	1245
+Terpopuler 7 hari	5	omarchy	Omarchy	1183
+Terpopuler 7 hari	6	ubuntu	Ubuntu	1071
+Terpopuler 7 hari	7	popos	Pop!_OS	965
+Terpopuler 7 hari	8	fedora	Fedora	956
+Terpopuler 7 hari	9	pikaos	PikaOS	867
+Terpopuler 7 hari	10	spaced	Spaced	815
+Terpopuler 7 hari	11	zorin	Zorin	807
+Terpopuler 7 hari	12	manjaro	Manjaro	765
+Terpopuler 7 hari	13	bazzite	Bazzite	694
+Terpopuler 7 hari	14	endeavour	EndeavourOS	679
+Terpopuler 7 hari	15	q4os	Q4OS	558
+Terpopuler 7 hari	16	biglinux	BigLinux	531
+Terpopuler 7 hari	17	artix	Artix	516
+Terpopuler 7 hari	18	opensuse	openSUSE	494
+Terpopuler 7 hari	19	freebsd	FreeBSD	488
+Terpopuler 7 hari	20	arch	Arch	486
+Terpopuler 7 hari	21	desert	DESERT	465
+Terpopuler 7 hari	22	anduin	AnduinOS	463
+Terpopuler 7 hari	23	tuxedo	TUXEDO	452
+Terpopuler 7 hari	24	void	Void	450
+Terpopuler 7 hari	25	pulsar	Pulsar	423
+Terpopuler 7 hari	26	antix	antiX	413
+Terpopuler 7 hari	27	pearos	pearOS	399
+Terpopuler 7 hari	28	nawaos	NawaOS	382
+Terpopuler 7 hari	29	mocaccinoos	MocaccinoOS	376
+Terpopuler 7 hari	30	nixos	NixOS	366
+Terpopuler 7 hari	31	nobara	Nobara	361
+Terpopuler 7 hari	32	stormos	StormOS	361
+Terpopuler 7 hari	33	kaos	KaOS	347
+Terpopuler 7 hari	34	enigmarsos	EnigmarsOS	339
+Terpopuler 7 hari	35	fydeos	FydeOS	330
+Terpopuler 7 hari	36	flinux	FLinux	325
+Terpopuler 7 hari	37	chromeos	ChromeOS	316
+Terpopuler 7 hari	38	4mlinux	4MLinux	307
+Terpopuler 7 hari	39	ditana	Ditana	304
+Terpopuler 7 hari	40	exton	Exton	304
+Terpopuler 7 hari	41	archbang	ArchBANG	303
+Terpopuler 7 hari	42	lankeos	LankeOS	303
+Terpopuler 7 hari	43	reactos	ReactOS	302
+Terpopuler 7 hari	44	elementary	elementary	300
+Terpopuler 7 hari	45	deblinux	Deblinux	299
+Terpopuler 7 hari	46	openkylin	openKylin	298
+Terpopuler 7 hari	47	kubuntu	Kubuntu	290
+Terpopuler 7 hari	48	nakedeb	nakeDeb	290
+Terpopuler 7 hari	49	xray	Xray_OS	284
+Terpopuler 7 hari	50	q83	Linux Q83	283
+Terpopuler 7 hari	51	mabox	Mabox	282
+Terpopuler 7 hari	52	berserkarch	Berserk Arch	277
+Terpopuler 7 hari	53	lilidog	Lilidog	275
+Terpopuler 7 hari	54	xubuntu	Xubuntu	272
+Terpopuler 7 hari	55	vuudo	Vuu-do	263
+Terpopuler 7 hari	56	hackeros	HackerOS	247
+Terpopuler 7 hari	57	solydxk	SolydXK	247
+Terpopuler 7 hari	58	starkos	starkOS	242
+Terpopuler 7 hari	59	devuan	Devuan	241
+Terpopuler 7 hari	60	minios	MiniOS	240
+Terpopuler 7 hari	61	tromjaro	TROMjaro	236
+Terpopuler 7 hari	62	pclinuxos	PCLinuxOS	235
+Terpopuler 7 hari	63	soplos	Soplos	233
+Terpopuler 7 hari	64	garuda	Garuda	231
+Terpopuler 7 hari	65	haos	HAOS	231
+Terpopuler 7 hari	66	skillfishos	SkillFishOS	228
+Terpopuler 7 hari	67	mageia	Mageia	227
+Terpopuler 7 hari	68	zenwalk	Zenwalk	227
+Terpopuler 7 hari	69	kali	Kali	226
+Terpopuler 7 hari	70	slimbookos	Slimbook OS	226
+Terpopuler 7 hari	71	lubuntu	Lubuntu	224
+Terpopuler 7 hari	72	rakuos	RakuOS	222
+Terpopuler 7 hari	73	alpine	Alpine	221
+Terpopuler 7 hari	74	netdeep	Netdeep	218
+Terpopuler 7 hari	75	abora	Abora	216
+Terpopuler 7 hari	76	puppy	Puppy	216
+Terpopuler 7 hari	77	solus	Solus	201
+Terpopuler 7 hari	78	linuxconsole	LinuxConsole	199
+Terpopuler 7 hari	79	velox	Velox	195
+Terpopuler 7 hari	80	aerynos	AerynOS	194
+Terpopuler 7 hari	81	syslinuxos	SysLinuxOS	189
+Terpopuler 7 hari	82	kdeneon	KDE neon	187
+Terpopuler 7 hari	83	sparky	SparkyLinux	185
+Terpopuler 7 hari	84	gentoo	Gentoo	182
+Terpopuler 7 hari	85	genuen	Genuen	182
+Terpopuler 7 hari	86	flora	Flora	181
+Terpopuler 7 hari	87	slackware	Slackware	180
+Terpopuler 7 hari	88	steamos	SteamOS	178
+Terpopuler 7 hari	89	extrox	extrox	178
+Terpopuler 7 hari	90	kdelinux	KDE Linux	175
+Terpopuler 7 hari	91	fu11m00n	fu11m00n	175
+Terpopuler 7 hari	92	vanilla	Vanilla	174
+Terpopuler 7 hari	93	securityonion	Security Onion	173
+Terpopuler 7 hari	94	tails	Tails	171
+Terpopuler 7 hari	95	lite	Lite	170
+Terpopuler 7 hari	96	calamaroos	CalamaroOS	166
+Terpopuler 7 hari	97	agarimos	AgarimOS	165
+Terpopuler 7 hari	98	tinycore	Tiny Core	165
+Terpopuler 7 hari	99	shadowfetch	Shadowfetch	163
+Terpopuler 7 hari	100	zimaos	ZimaOS	163
 Terpopuler 30 hari	1	cachyos	CachyOS	2473
-Terpopuler 30 hari	2	mint	Mint	1562
-Terpopuler 30 hari	3	mx	MX Linux	1339
-Terpopuler 30 hari	4	debian	Debian	1027
+Terpopuler 30 hari	2	mint	Mint	1566
+Terpopuler 30 hari	3	mx	MX Linux	1343
+Terpopuler 30 hari	4	debian	Debian	1047
 Terpopuler 30 hari	5	popos	Pop!_OS	1005
-Terpopuler 30 hari	6	fedora	Fedora	928
-Terpopuler 30 hari	7	ubuntu	Ubuntu	898
-Terpopuler 30 hari	8	omarchy	Omarchy	852
-Terpopuler 30 hari	9	zorin	Zorin	836
-Terpopuler 30 hari	10	endeavour	EndeavourOS	824
+Terpopuler 30 hari	6	fedora	Fedora	934
+Terpopuler 30 hari	7	ubuntu	Ubuntu	914
+Terpopuler 30 hari	8	zorin	Zorin	836
+Terpopuler 30 hari	9	endeavour	EndeavourOS	826
+Terpopuler 30 hari	10	omarchy	Omarchy	824
 Terpopuler 30 hari	11	bazzite	Bazzite	737
-Terpopuler 30 hari	12	manjaro	Manjaro	700
+Terpopuler 30 hari	12	manjaro	Manjaro	683
 Terpopuler 30 hari	13	pikaos	PikaOS	624
-Terpopuler 30 hari	14	fydeos	FydeOS	552
-Terpopuler 30 hari	15	tuxedo	TUXEDO	539
-Terpopuler 30 hari	16	artix	Artix	535
-Terpopuler 30 hari	17	pearos	pearOS	520
+Terpopuler 30 hari	14	fydeos	FydeOS	558
+Terpopuler 30 hari	15	tuxedo	TUXEDO	546
+Terpopuler 30 hari	16	artix	Artix	520
+Terpopuler 30 hari	17	pearos	pearOS	516
 Terpopuler 30 hari	18	opensuse	openSUSE	495
-Terpopuler 30 hari	19	biglinux	BigLinux	484
-Terpopuler 30 hari	20	q4os	Q4OS	474
-Terpopuler 30 hari	21	mainstream	Mainstream	466
-Terpopuler 30 hari	22	garuda	Garuda	465
-Terpopuler 30 hari	23	anduin	AnduinOS	455
-Terpopuler 30 hari	24	nobara	Nobara	452
-Terpopuler 30 hari	25	arch	Arch	447
-Terpopuler 30 hari	26	void	Void	426
-Terpopuler 30 hari	27	antix	antiX	405
-Terpopuler 30 hari	28	reactos	ReactOS	402
-Terpopuler 30 hari	29	nixos	NixOS	378
-Terpopuler 30 hari	30	freebsd	FreeBSD	377
-Terpopuler 30 hari	31	openkylin	openKylin	364
-Terpopuler 30 hari	32	chromeos	ChromeOS	354
-Terpopuler 30 hari	33	abora	Abora	345
-Terpopuler 30 hari	34	spaced	Spaced	335
-Terpopuler 30 hari	35	vanilla	Vanilla	335
+Terpopuler 30 hari	19	biglinux	BigLinux	493
+Terpopuler 30 hari	20	q4os	Q4OS	479
+Terpopuler 30 hari	21	mainstream	Mainstream	468
+Terpopuler 30 hari	22	garuda	Garuda	467
+Terpopuler 30 hari	23	anduin	AnduinOS	457
+Terpopuler 30 hari	24	arch	Arch	455
+Terpopuler 30 hari	25	nobara	Nobara	453
+Terpopuler 30 hari	26	void	Void	425
+Terpopuler 30 hari	27	reactos	ReactOS	409
+Terpopuler 30 hari	28	antix	antiX	406
+Terpopuler 30 hari	29	nixos	NixOS	379
+Terpopuler 30 hari	30	freebsd	FreeBSD	372
+Terpopuler 30 hari	31	openkylin	openKylin	367
+Terpopuler 30 hari	32	chromeos	ChromeOS	355
+Terpopuler 30 hari	33	spaced	Spaced	347
+Terpopuler 30 hari	34	vanilla	Vanilla	347
+Terpopuler 30 hari	35	abora	Abora	346
 Terpopuler 30 hari	36	elementary	elementary	331
-Terpopuler 30 hari	37	dragonos	DragonOS	323
-Terpopuler 30 hari	38	nawaos	NawaOS	295
-Terpopuler 30 hari	39	prismlinux	PrismLinux	278
-Terpopuler 30 hari	40	zimaos	ZimaOS	274
-Terpopuler 30 hari	41	rakuos	RakuOS	272
-Terpopuler 30 hari	42	kubuntu	Kubuntu	267
+Terpopuler 30 hari	37	dragonos	DragonOS	322
+Terpopuler 30 hari	38	nawaos	NawaOS	300
+Terpopuler 30 hari	39	prismlinux	PrismLinux	279
+Terpopuler 30 hari	40	rakuos	RakuOS	272
+Terpopuler 30 hari	41	zimaos	ZimaOS	271
+Terpopuler 30 hari	42	kubuntu	Kubuntu	269
 Terpopuler 30 hari	43	liya	Liya	262
-Terpopuler 30 hari	44	puppy	Puppy	253
-Terpopuler 30 hari	45	butterbian	Butterbian	252
-Terpopuler 30 hari	46	talos	Talos	251
-Terpopuler 30 hari	47	minios	MiniOS	249
-Terpopuler 30 hari	48	zenwalk	Zenwalk	248
+Terpopuler 30 hari	44	puppy	Puppy	254
+Terpopuler 30 hari	45	butterbian	Butterbian	253
+Terpopuler 30 hari	46	minios	MiniOS	251
+Terpopuler 30 hari	47	zenwalk	Zenwalk	250
+Terpopuler 30 hari	48	hackeros	HackerOS	247
 Terpopuler 30 hari	49	haiku	Haiku	247
-Terpopuler 30 hari	50	hackeros	HackerOS	246
-Terpopuler 30 hari	51	pclinuxos	PCLinuxOS	243
-Terpopuler 30 hari	52	sparky	SparkyLinux	239
-Terpopuler 30 hari	53	mageia	Mageia	231
-Terpopuler 30 hari	54	tails	Tails	231
-Terpopuler 30 hari	55	kali	Kali	221
-Terpopuler 30 hari	56	soplos	Soplos	218
-Terpopuler 30 hari	57	xubuntu	Xubuntu	213
+Terpopuler 30 hari	50	pclinuxos	PCLinuxOS	242
+Terpopuler 30 hari	51	talos	Talos	235
+Terpopuler 30 hari	52	mageia	Mageia	232
+Terpopuler 30 hari	53	tails	Tails	232
+Terpopuler 30 hari	54	sparky	SparkyLinux	228
+Terpopuler 30 hari	55	kali	Kali	222
+Terpopuler 30 hari	56	soplos	Soplos	216
+Terpopuler 30 hari	57	xubuntu	Xubuntu	216
 Terpopuler 30 hari	58	alpine	Alpine	211
-Terpopuler 30 hari	59	omegalinux	OmegaLinux	209
-Terpopuler 30 hari	60	q83	Linux Q83	203
-Terpopuler 30 hari	61	devuan	Devuan	201
-Terpopuler 30 hari	62	steamos	SteamOS	199
-Terpopuler 30 hari	63	lubuntu	Lubuntu	198
-Terpopuler 30 hari	64	solus	Solus	197
-Terpopuler 30 hari	65	porteux	PorteuX	195
-Terpopuler 30 hari	66	aerynos	AerynOS	190
+Terpopuler 30 hari	59	omegalinux	OmegaLinux	208
+Terpopuler 30 hari	60	q83	Linux Q83	206
+Terpopuler 30 hari	61	devuan	Devuan	203
+Terpopuler 30 hari	62	skillfishos	SkillFishOS	203
+Terpopuler 30 hari	63	lubuntu	Lubuntu	200
+Terpopuler 30 hari	64	steamos	SteamOS	199
+Terpopuler 30 hari	65	solus	Solus	198
+Terpopuler 30 hari	66	porteux	PorteuX	196
 Terpopuler 30 hari	67	kdeneon	KDE neon	190
-Terpopuler 30 hari	68	starkos	starkOS	189
-Terpopuler 30 hari	69	skillfishos	SkillFishOS	187
-Terpopuler 30 hari	70	funos	FunOS	185
-Terpopuler 30 hari	71	gentoo	Gentoo	180
-Terpopuler 30 hari	72	kdelinux	KDE Linux	178
-Terpopuler 30 hari	73	mocaccinoos	MocaccinoOS	178
-Terpopuler 30 hari	74	slackware	Slackware	176
-Terpopuler 30 hari	75	exton	Exton	174
-Terpopuler 30 hari	76	vailuxos	VailuxOS	174
-Terpopuler 30 hari	77	ultimate	Ultimate	173
-Terpopuler 30 hari	78	archbang	ArchBANG	172
-Terpopuler 30 hari	79	gabee	gabeeOSLinux	169
-Terpopuler 30 hari	80	lite	Lite	165
-Terpopuler 30 hari	81	slimbookos	Slimbook OS	165
-Terpopuler 30 hari	82	alma	AlmaLinux	163
+Terpopuler 30 hari	68	starkos	starkOS	190
+Terpopuler 30 hari	69	funos	FunOS	188
+Terpopuler 30 hari	70	aerynos	AerynOS	187
+Terpopuler 30 hari	71	archbang	ArchBANG	185
+Terpopuler 30 hari	72	exton	Exton	182
+Terpopuler 30 hari	73	gentoo	Gentoo	182
+Terpopuler 30 hari	74	mocaccinoos	MocaccinoOS	181
+Terpopuler 30 hari	75	kdelinux	KDE Linux	178
+Terpopuler 30 hari	76	slackware	Slackware	178
+Terpopuler 30 hari	77	kaos	KaOS	169
+Terpopuler 30 hari	78	slimbookos	Slimbook OS	166
+Terpopuler 30 hari	79	lite	Lite	165
+Terpopuler 30 hari	80	alma	AlmaLinux	163
+Terpopuler 30 hari	81	lfs	LFS	162
+Terpopuler 30 hari	82	cobaltx	CobaltX	159
 Terpopuler 30 hari	83	gnomeos	GNOME OS	159
 Terpopuler 30 hari	84	bluestar	Bluestar	158
-Terpopuler 30 hari	85	cobaltx	CobaltX	158
-Terpopuler 30 hari	86	lfs	LFS	157
-Terpopuler 30 hari	87	cuerdos	CuerdOS	156
-Terpopuler 30 hari	88	kaos	KaOS	155
-Terpopuler 30 hari	89	plop	Plop	154
-Terpopuler 30 hari	90	capivaraos	CapivaraOS	152
-Terpopuler 30 hari	91	ultramarine	Ultramarine	151
+Terpopuler 30 hari	85	cuerdos	CuerdOS	157
+Terpopuler 30 hari	86	plop	Plop	153
+Terpopuler 30 hari	87	vailuxos	VailuxOS	153
+Terpopuler 30 hari	88	gabee	gabeeOSLinux	153
+Terpopuler 30 hari	89	capivaraos	CapivaraOS	152
+Terpopuler 30 hari	90	ultramarine	Ultramarine	152
+Terpopuler 30 hari	91	reignos	ReignOS	150
 Terpopuler 30 hari	92	genuen	Genuen	149
-Terpopuler 30 hari	93	reignos	ReignOS	147
-Terpopuler 30 hari	94	voyager	Voyager	147
-Terpopuler 30 hari	95	linuxfx	Linuxfx	146
-Terpopuler 30 hari	96	lajtlinux	LajtLinux	145
-Terpopuler 30 hari	97	tromjaro	TROMjaro	145
-Terpopuler 30 hari	98	agarimos	AgarimOS	144
-Terpopuler 30 hari	99	centos	CentOS	144
-Terpopuler 30 hari	100	lilidog	Lilidog	142
-Terpopuler 3 bulan	1	cachyos	CachyOS	2443
-Terpopuler 3 bulan	2	mint	Mint	1545
-Terpopuler 3 bulan	3	mx	MX Linux	1291
-Terpopuler 3 bulan	4	debian	Debian	1020
-Terpopuler 3 bulan	5	popos	Pop!_OS	995
+Terpopuler 30 hari	93	lankeos	LankeOS	149
+Terpopuler 30 hari	94	tromjaro	TROMjaro	149
+Terpopuler 30 hari	95	lilidog	Lilidog	146
+Terpopuler 30 hari	96	voyager	Voyager	146
+Terpopuler 30 hari	97	lajtlinux	LajtLinux	145
+Terpopuler 30 hari	98	linuxfx	Linuxfx	145
+Terpopuler 30 hari	99	agarimos	AgarimOS	144
+Terpopuler 30 hari	100	centos	CentOS	144
+Terpopuler 3 bulan	1	cachyos	CachyOS	2438
+Terpopuler 3 bulan	2	mint	Mint	1542
+Terpopuler 3 bulan	3	mx	MX Linux	1288
+Terpopuler 3 bulan	4	debian	Debian	1023
+Terpopuler 3 bulan	5	popos	Pop!_OS	992
 Terpopuler 3 bulan	6	fedora	Fedora	882
-Terpopuler 3 bulan	7	zorin	Zorin	848
-Terpopuler 3 bulan	8	ubuntu	Ubuntu	748
+Terpopuler 3 bulan	7	zorin	Zorin	845
+Terpopuler 3 bulan	8	ubuntu	Ubuntu	752
 Terpopuler 3 bulan	9	endeavour	EndeavourOS	713
 Terpopuler 3 bulan	10	manjaro	Manjaro	702
-Terpopuler 3 bulan	11	pikaos	PikaOS	696
-Terpopuler 3 bulan	12	bazzite	Bazzite	695
-Terpopuler 3 bulan	13	anduin	AnduinOS	602
-Terpopuler 3 bulan	14	omarchy	Omarchy	539
-Terpopuler 3 bulan	15	opensuse	openSUSE	494
-Terpopuler 3 bulan	16	biglinux	BigLinux	480
-Terpopuler 3 bulan	17	void	Void	453
-Terpopuler 3 bulan	18	pearos	pearOS	448
-Terpopuler 3 bulan	19	nobara	Nobara	429
-Terpopuler 3 bulan	20	tuxedo	TUXEDO	422
-Terpopuler 3 bulan	21	arch	Arch	393
-Terpopuler 3 bulan	22	antix	antiX	391
-Terpopuler 3 bulan	23	artix	Artix	389
-Terpopuler 3 bulan	24	nixos	NixOS	385
-Terpopuler 3 bulan	25	fydeos	FydeOS	356
+Terpopuler 3 bulan	11	pikaos	PikaOS	697
+Terpopuler 3 bulan	12	bazzite	Bazzite	691
+Terpopuler 3 bulan	13	anduin	AnduinOS	589
+Terpopuler 3 bulan	14	omarchy	Omarchy	546
+Terpopuler 3 bulan	15	opensuse	openSUSE	493
+Terpopuler 3 bulan	16	biglinux	BigLinux	483
+Terpopuler 3 bulan	17	void	Void	452
+Terpopuler 3 bulan	18	pearos	pearOS	449
+Terpopuler 3 bulan	19	nobara	Nobara	428
+Terpopuler 3 bulan	20	tuxedo	TUXEDO	416
+Terpopuler 3 bulan	21	arch	Arch	394
+Terpopuler 3 bulan	22	artix	Artix	392
+Terpopuler 3 bulan	23	antix	antiX	390
+Terpopuler 3 bulan	24	nixos	NixOS	384
+Terpopuler 3 bulan	25	fydeos	FydeOS	357
 Terpopuler 3 bulan	26	mageia	Mageia	354
-Terpopuler 3 bulan	27	q4os	Q4OS	343
-Terpopuler 3 bulan	28	freebsd	FreeBSD	342
-Terpopuler 3 bulan	29	chromeos	ChromeOS	330
-Terpopuler 3 bulan	30	steamos	SteamOS	327
-Terpopuler 3 bulan	31	elementary	elementary	324
+Terpopuler 3 bulan	27	q4os	Q4OS	344
+Terpopuler 3 bulan	28	freebsd	FreeBSD	340
+Terpopuler 3 bulan	29	chromeos	ChromeOS	331
+Terpopuler 3 bulan	30	steamos	SteamOS	328
+Terpopuler 3 bulan	31	elementary	elementary	323
 Terpopuler 3 bulan	32	pclinuxos	PCLinuxOS	322
 Terpopuler 3 bulan	33	garuda	Garuda	304
 Terpopuler 3 bulan	34	zimaos	ZimaOS	298
 Terpopuler 3 bulan	35	ultramarine	Ultramarine	273
 Terpopuler 3 bulan	36	kali	Kali	272
-Terpopuler 3 bulan	37	soplos	Soplos	267
+Terpopuler 3 bulan	37	soplos	Soplos	268
 Terpopuler 3 bulan	38	aerynos	AerynOS	264
-Terpopuler 3 bulan	39	puppy	Puppy	262
+Terpopuler 3 bulan	39	puppy	Puppy	261
 Terpopuler 3 bulan	40	minios	MiniOS	260
 Terpopuler 3 bulan	41	sparky	SparkyLinux	256
 Terpopuler 3 bulan	42	hackeros	HackerOS	249
-Terpopuler 3 bulan	43	kdeneon	KDE neon	238
-Terpopuler 3 bulan	44	abora	Abora	235
-Terpopuler 3 bulan	45	alpine	Alpine	234
-Terpopuler 3 bulan	46	easyos	EasyOS	228
-Terpopuler 3 bulan	47	tails	Tails	228
-Terpopuler 3 bulan	48	archbang	ArchBANG	226
-Terpopuler 3 bulan	49	kubuntu	Kubuntu	220
-Terpopuler 3 bulan	50	bluestar	Bluestar	216
-Terpopuler 3 bulan	51	kaos	KaOS	213
-Terpopuler 3 bulan	52	rakuos	RakuOS	209
-Terpopuler 3 bulan	53	devuan	Devuan	207
-Terpopuler 3 bulan	54	deepin	deepin	205
-Terpopuler 3 bulan	55	kdelinux	KDE Linux	204
-Terpopuler 3 bulan	56	reactos	ReactOS	201
+Terpopuler 3 bulan	43	kdeneon	KDE neon	237
+Terpopuler 3 bulan	44	alpine	Alpine	231
+Terpopuler 3 bulan	45	archbang	ArchBANG	230
+Terpopuler 3 bulan	46	abora	Abora	229
+Terpopuler 3 bulan	47	tails	Tails	227
+Terpopuler 3 bulan	48	kubuntu	Kubuntu	221
+Terpopuler 3 bulan	49	kaos	KaOS	217
+Terpopuler 3 bulan	50	bluestar	Bluestar	212
+Terpopuler 3 bulan	51	rakuos	RakuOS	208
+Terpopuler 3 bulan	52	devuan	Devuan	207
+Terpopuler 3 bulan	53	easyos	EasyOS	206
+Terpopuler 3 bulan	54	deepin	deepin	204
+Terpopuler 3 bulan	55	kdelinux	KDE Linux	203
+Terpopuler 3 bulan	56	reactos	ReactOS	203
 Terpopuler 3 bulan	57	solus	Solus	198
 Terpopuler 3 bulan	58	dragonos	DragonOS	196
 Terpopuler 3 bulan	59	porteux	PorteuX	196
-Terpopuler 3 bulan	60	lite	Lite	192
-Terpopuler 3 bulan	61	gnomeos	GNOME OS	191
-Terpopuler 3 bulan	62	vanilla	Vanilla	186
-Terpopuler 3 bulan	63	omegalinux	OmegaLinux	180
-Terpopuler 3 bulan	64	gentoo	Gentoo	177
-Terpopuler 3 bulan	65	shadowfetch	Shadowfetch	177
+Terpopuler 3 bulan	60	gnomeos	GNOME OS	191
+Terpopuler 3 bulan	61	lite	Lite	190
+Terpopuler 3 bulan	62	vanilla	Vanilla	188
+Terpopuler 3 bulan	63	omegalinux	OmegaLinux	179
+Terpopuler 3 bulan	64	shadowfetch	Shadowfetch	177
+Terpopuler 3 bulan	65	gentoo	Gentoo	176
 Terpopuler 3 bulan	66	vailuxos	VailuxOS	175
 Terpopuler 3 bulan	67	mocaccinoos	MocaccinoOS	173
 Terpopuler 3 bulan	68	slackware	Slackware	171
-Terpopuler 3 bulan	69	linuxfx	Linuxfx	170
-Terpopuler 3 bulan	70	prismlinux	PrismLinux	168
-Terpopuler 3 bulan	71	tinycore	Tiny Core	168
-Terpopuler 3 bulan	72	lubuntu	Lubuntu	167
-Terpopuler 3 bulan	73	parrot	Parrot	167
-Terpopuler 3 bulan	74	openkylin	openKylin	167
-Terpopuler 3 bulan	75	exton	Exton	165
-Terpopuler 3 bulan	76	centos	CentOS	162
-Terpopuler 3 bulan	77	lilidog	Lilidog	162
-Terpopuler 3 bulan	78	q83	Linux Q83	162
-Terpopuler 3 bulan	79	talos	Talos	162
-Terpopuler 3 bulan	80	calamaroos	CalamaroOS	160
-Terpopuler 3 bulan	81	alma	AlmaLinux	158
-Terpopuler 3 bulan	82	xubuntu	Xubuntu	157
-Terpopuler 3 bulan	83	mainstream	Mainstream	153
+Terpopuler 3 bulan	69	prismlinux	PrismLinux	169
+Terpopuler 3 bulan	70	tinycore	Tiny Core	169
+Terpopuler 3 bulan	71	openkylin	openKylin	168
+Terpopuler 3 bulan	72	exton	Exton	167
+Terpopuler 3 bulan	73	linuxfx	Linuxfx	167
+Terpopuler 3 bulan	74	lubuntu	Lubuntu	167
+Terpopuler 3 bulan	75	parrot	Parrot	167
+Terpopuler 3 bulan	76	lilidog	Lilidog	163
+Terpopuler 3 bulan	77	talos	Talos	162
+Terpopuler 3 bulan	78	centos	CentOS	161
+Terpopuler 3 bulan	79	calamaroos	CalamaroOS	160
+Terpopuler 3 bulan	80	xubuntu	Xubuntu	158
+Terpopuler 3 bulan	81	alma	AlmaLinux	157
+Terpopuler 3 bulan	82	q83	Linux Q83	156
+Terpopuler 3 bulan	83	mainstream	Mainstream	154
 Terpopuler 3 bulan	84	ideal	iDeal	152
 Terpopuler 3 bulan	85	synex	Synex	151
 Terpopuler 3 bulan	86	ultimate	Ultimate	149
-Terpopuler 3 bulan	87	voyager	Voyager	146
-Terpopuler 3 bulan	88	agarimos	AgarimOS	145
+Terpopuler 3 bulan	87	desert	DESERT	148
+Terpopuler 3 bulan	88	voyager	Voyager	146
 Terpopuler 3 bulan	89	calyxos	CalyxOS	145
-Terpopuler 3 bulan	90	desert	DESERT	144
+Terpopuler 3 bulan	90	agarimos	AgarimOS	144
 Terpopuler 3 bulan	91	redhat	Red Hat	143
 Terpopuler 3 bulan	92	peppermint	Peppermint	142
 Terpopuler 3 bulan	93	commodore	Commodore	138
@@ -809,186 +809,186 @@ Terpopuler 3 bulan	94	magos	MagOS	138
 Terpopuler 3 bulan	95	tromjaro	TROMjaro	138
 Terpopuler 3 bulan	96	lazylinux	LazyLinux	137
 Terpopuler 3 bulan	97	avlinux	AV Linux	136
-Terpopuler 3 bulan	98	funos	FunOS	134
+Terpopuler 3 bulan	98	funos	FunOS	133
 Terpopuler 3 bulan	99	galactic	Galactic Mandate	132
 Terpopuler 3 bulan	100	archcraft	Archcraft	131
-Terpopuler 6 bulan	1	cachyos	CachyOS	2834
-Terpopuler 6 bulan	2	mint	Mint	1747
-Terpopuler 6 bulan	3	mx	MX Linux	1552
-Terpopuler 6 bulan	4	debian	Debian	1159
-Terpopuler 6 bulan	5	popos	Pop!_OS	1152
-Terpopuler 6 bulan	6	fedora	Fedora	1083
-Terpopuler 6 bulan	7	zorin	Zorin	1063
-Terpopuler 6 bulan	8	ubuntu	Ubuntu	924
-Terpopuler 6 bulan	9	endeavour	EndeavourOS	860
-Terpopuler 6 bulan	10	bazzite	Bazzite	845
-Terpopuler 6 bulan	11	manjaro	Manjaro	795
-Terpopuler 6 bulan	12	pikaos	PikaOS	699
-Terpopuler 6 bulan	13	anduin	AnduinOS	620
-Terpopuler 6 bulan	14	arch	Arch	614
-Terpopuler 6 bulan	15	opensuse	openSUSE	569
-Terpopuler 6 bulan	16	biglinux	BigLinux	544
-Terpopuler 6 bulan	17	omarchy	Omarchy	532
-Terpopuler 6 bulan	18	antix	antiX	524
-Terpopuler 6 bulan	19	void	Void	505
-Terpopuler 6 bulan	20	artix	Artix	502
-Terpopuler 6 bulan	21	nobara	Nobara	492
-Terpopuler 6 bulan	22	nixos	NixOS	453
+Terpopuler 6 bulan	1	cachyos	CachyOS	2826
+Terpopuler 6 bulan	2	mint	Mint	1744
+Terpopuler 6 bulan	3	mx	MX Linux	1550
+Terpopuler 6 bulan	4	debian	Debian	1153
+Terpopuler 6 bulan	5	popos	Pop!_OS	1147
+Terpopuler 6 bulan	6	fedora	Fedora	1082
+Terpopuler 6 bulan	7	zorin	Zorin	1060
+Terpopuler 6 bulan	8	ubuntu	Ubuntu	925
+Terpopuler 6 bulan	9	endeavour	EndeavourOS	854
+Terpopuler 6 bulan	10	bazzite	Bazzite	843
+Terpopuler 6 bulan	11	manjaro	Manjaro	793
+Terpopuler 6 bulan	12	pikaos	PikaOS	700
+Terpopuler 6 bulan	13	anduin	AnduinOS	619
+Terpopuler 6 bulan	14	arch	Arch	611
+Terpopuler 6 bulan	15	opensuse	openSUSE	568
+Terpopuler 6 bulan	16	biglinux	BigLinux	545
+Terpopuler 6 bulan	17	omarchy	Omarchy	535
+Terpopuler 6 bulan	18	antix	antiX	523
+Terpopuler 6 bulan	19	artix	Artix	504
+Terpopuler 6 bulan	20	void	Void	501
+Terpopuler 6 bulan	21	nobara	Nobara	491
+Terpopuler 6 bulan	22	nixos	NixOS	452
 Terpopuler 6 bulan	23	q4os	Q4OS	422
-Terpopuler 6 bulan	24	pearos	pearOS	403
-Terpopuler 6 bulan	25	elementary	elementary	387
-Terpopuler 6 bulan	26	freebsd	FreeBSD	377
-Terpopuler 6 bulan	27	mageia	Mageia	363
+Terpopuler 6 bulan	24	pearos	pearOS	401
+Terpopuler 6 bulan	25	elementary	elementary	385
+Terpopuler 6 bulan	26	freebsd	FreeBSD	376
+Terpopuler 6 bulan	27	mageia	Mageia	364
 Terpopuler 6 bulan	28	chromeos	ChromeOS	341
-Terpopuler 6 bulan	29	tuxedo	TUXEDO	337
+Terpopuler 6 bulan	29	tuxedo	TUXEDO	338
 Terpopuler 6 bulan	30	pclinuxos	PCLinuxOS	320
-Terpopuler 6 bulan	31	garuda	Garuda	313
-Terpopuler 6 bulan	32	minios	MiniOS	312
+Terpopuler 6 bulan	31	garuda	Garuda	312
+Terpopuler 6 bulan	32	minios	MiniOS	311
 Terpopuler 6 bulan	33	fydeos	FydeOS	310
-Terpopuler 6 bulan	34	kali	Kali	310
+Terpopuler 6 bulan	34	kali	Kali	309
 Terpopuler 6 bulan	35	alpine	Alpine	306
-Terpopuler 6 bulan	36	zimaos	ZimaOS	304
+Terpopuler 6 bulan	36	zimaos	ZimaOS	303
 Terpopuler 6 bulan	37	puppy	Puppy	296
 Terpopuler 6 bulan	38	lite	Lite	295
-Terpopuler 6 bulan	39	aerynos	AerynOS	288
-Terpopuler 6 bulan	40	kdeneon	KDE neon	287
-Terpopuler 6 bulan	41	tails	Tails	287
+Terpopuler 6 bulan	39	aerynos	AerynOS	287
+Terpopuler 6 bulan	40	tails	Tails	287
+Terpopuler 6 bulan	41	kdeneon	KDE neon	286
 Terpopuler 6 bulan	42	devuan	Devuan	284
-Terpopuler 6 bulan	43	sparky	SparkyLinux	281
+Terpopuler 6 bulan	43	sparky	SparkyLinux	275
 Terpopuler 6 bulan	44	hackeros	HackerOS	273
 Terpopuler 6 bulan	45	solus	Solus	273
 Terpopuler 6 bulan	46	kubuntu	Kubuntu	268
-Terpopuler 6 bulan	47	bluestar	Bluestar	260
-Terpopuler 6 bulan	48	rakuos	RakuOS	247
+Terpopuler 6 bulan	47	bluestar	Bluestar	259
+Terpopuler 6 bulan	48	rakuos	RakuOS	248
 Terpopuler 6 bulan	49	kdelinux	KDE Linux	240
-Terpopuler 6 bulan	50	exton	Exton	235
+Terpopuler 6 bulan	50	exton	Exton	236
 Terpopuler 6 bulan	51	gentoo	Gentoo	231
-Terpopuler 6 bulan	52	alma	AlmaLinux	230
+Terpopuler 6 bulan	52	alma	AlmaLinux	229
 Terpopuler 6 bulan	53	gnomeos	GNOME OS	222
 Terpopuler 6 bulan	54	parrot	Parrot	220
 Terpopuler 6 bulan	55	centos	CentOS	214
 Terpopuler 6 bulan	56	mocaccinoos	MocaccinoOS	213
-Terpopuler 6 bulan	57	easyos	EasyOS	211
+Terpopuler 6 bulan	57	easyos	EasyOS	212
 Terpopuler 6 bulan	58	voyager	Voyager	211
 Terpopuler 6 bulan	59	ultramarine	Ultramarine	210
-Terpopuler 6 bulan	60	linuxfx	Linuxfx	209
-Terpopuler 6 bulan	61	steamos	SteamOS	205
+Terpopuler 6 bulan	60	linuxfx	Linuxfx	208
+Terpopuler 6 bulan	61	steamos	SteamOS	206
 Terpopuler 6 bulan	62	deepin	deepin	204
-Terpopuler 6 bulan	63	kaos	KaOS	202
+Terpopuler 6 bulan	63	kaos	KaOS	203
 Terpopuler 6 bulan	64	commodore	Commodore	201
 Terpopuler 6 bulan	65	lubuntu	Lubuntu	198
 Terpopuler 6 bulan	66	slackware	Slackware	193
 Terpopuler 6 bulan	67	xubuntu	Xubuntu	187
-Terpopuler 6 bulan	68	vailuxos	VailuxOS	184
-Terpopuler 6 bulan	69	dragonos	DragonOS	182
+Terpopuler 6 bulan	68	dragonos	DragonOS	182
+Terpopuler 6 bulan	69	vailuxos	VailuxOS	182
 Terpopuler 6 bulan	70	ideal	iDeal	182
 Terpopuler 6 bulan	71	ghostbsd	GhostBSD	181
-Terpopuler 6 bulan	72	rocky	Rocky	176
-Terpopuler 6 bulan	73	talos	Talos	176
-Terpopuler 6 bulan	74	peppermint	Peppermint	175
+Terpopuler 6 bulan	72	talos	Talos	176
+Terpopuler 6 bulan	73	rocky	Rocky	175
+Terpopuler 6 bulan	74	peppermint	Peppermint	174
 Terpopuler 6 bulan	75	redhat	Red Hat	174
-Terpopuler 6 bulan	76	synex	Synex	173
-Terpopuler 6 bulan	77	archbang	ArchBANG	172
-Terpopuler 6 bulan	78	vanilla	Vanilla	170
-Terpopuler 6 bulan	79	aurora	Aurora	168
+Terpopuler 6 bulan	76	archbang	ArchBANG	173
+Terpopuler 6 bulan	77	synex	Synex	173
+Terpopuler 6 bulan	78	vanilla	Vanilla	171
+Terpopuler 6 bulan	79	aurora	Aurora	167
 Terpopuler 6 bulan	80	tinycore	Tiny Core	167
 Terpopuler 6 bulan	81	ultimate	Ultimate	167
 Terpopuler 6 bulan	82	agarimos	AgarimOS	166
-Terpopuler 6 bulan	83	avlinux	AV Linux	165
+Terpopuler 6 bulan	83	calamaroos	CalamaroOS	166
 Terpopuler 6 bulan	84	archcraft	Archcraft	165
-Terpopuler 6 bulan	85	calamaroos	CalamaroOS	165
-Terpopuler 6 bulan	86	omegalinux	OmegaLinux	165
+Terpopuler 6 bulan	85	tromjaro	TROMjaro	165
+Terpopuler 6 bulan	86	avlinux	AV Linux	164
 Terpopuler 6 bulan	87	funos	FunOS	164
-Terpopuler 6 bulan	88	tromjaro	TROMjaro	164
-Terpopuler 6 bulan	89	q83	Linux Q83	163
+Terpopuler 6 bulan	88	q83	Linux Q83	164
+Terpopuler 6 bulan	89	omegalinux	OmegaLinux	164
 Terpopuler 6 bulan	90	magos	MagOS	160
 Terpopuler 6 bulan	91	cuerdos	CuerdOS	158
-Terpopuler 6 bulan	92	lilidog	Lilidog	156
+Terpopuler 6 bulan	92	reactos	ReactOS	156
 Terpopuler 6 bulan	93	nebios	NebiOS	155
-Terpopuler 6 bulan	94	reactos	ReactOS	155
-Terpopuler 6 bulan	95	soplos	Soplos	154
+Terpopuler 6 bulan	94	soplos	Soplos	155
+Terpopuler 6 bulan	95	lilidog	Lilidog	152
 Terpopuler 6 bulan	96	smartos	SmartOS	151
 Terpopuler 6 bulan	97	vendefoul	Vendefoul	151
 Terpopuler 6 bulan	98	prismlinux	PrismLinux	148
 Terpopuler 6 bulan	99	blendos	blendOS	148
 Terpopuler 6 bulan	100	besgnulinux	Besgnulinux	143
-Terpopuler 12 bulan	1	cachyos	CachyOS	3562
-Terpopuler 12 bulan	2	mint	Mint	2127
-Terpopuler 12 bulan	3	mx	MX Linux	1865
+Terpopuler 12 bulan	1	cachyos	CachyOS	3557
+Terpopuler 12 bulan	2	mint	Mint	2125
+Terpopuler 12 bulan	3	mx	MX Linux	1863
 Terpopuler 12 bulan	4	popos	Pop!_OS	1332
 Terpopuler 12 bulan	5	debian	Debian	1324
 Terpopuler 12 bulan	6	zorin	Zorin	1252
 Terpopuler 12 bulan	7	fedora	Fedora	1113
-Terpopuler 12 bulan	8	endeavour	EndeavourOS	1082
+Terpopuler 12 bulan	8	endeavour	EndeavourOS	1081
 Terpopuler 12 bulan	9	ubuntu	Ubuntu	982
-Terpopuler 12 bulan	10	manjaro	Manjaro	971
+Terpopuler 12 bulan	10	manjaro	Manjaro	970
 Terpopuler 12 bulan	11	bazzite	Bazzite	796
-Terpopuler 12 bulan	12	anduin	AnduinOS	790
+Terpopuler 12 bulan	12	anduin	AnduinOS	788
 Terpopuler 12 bulan	13	opensuse	openSUSE	668
 Terpopuler 12 bulan	14	arch	Arch	638
-Terpopuler 12 bulan	15	pikaos	PikaOS	614
-Terpopuler 12 bulan	16	nobara	Nobara	602
+Terpopuler 12 bulan	15	pikaos	PikaOS	616
+Terpopuler 12 bulan	16	nobara	Nobara	601
 Terpopuler 12 bulan	17	biglinux	BigLinux	547
 Terpopuler 12 bulan	18	antix	antiX	544
-Terpopuler 12 bulan	19	nixos	NixOS	509
-Terpopuler 12 bulan	20	omarchy	Omarchy	505
+Terpopuler 12 bulan	19	nixos	NixOS	508
+Terpopuler 12 bulan	20	omarchy	Omarchy	507
 Terpopuler 12 bulan	21	elementary	elementary	492
-Terpopuler 12 bulan	22	q4os	Q4OS	450
+Terpopuler 12 bulan	22	q4os	Q4OS	448
 Terpopuler 12 bulan	23	void	Void	415
-Terpopuler 12 bulan	24	freebsd	FreeBSD	412
-Terpopuler 12 bulan	25	kdeneon	KDE neon	410
-Terpopuler 12 bulan	26	bluestar	Bluestar	407
-Terpopuler 12 bulan	27	artix	Artix	394
+Terpopuler 12 bulan	24	freebsd	FreeBSD	411
+Terpopuler 12 bulan	25	kdeneon	KDE neon	409
+Terpopuler 12 bulan	26	bluestar	Bluestar	405
+Terpopuler 12 bulan	27	artix	Artix	395
 Terpopuler 12 bulan	28	garuda	Garuda	376
 Terpopuler 12 bulan	29	minios	MiniOS	374
 Terpopuler 12 bulan	30	tuxedo	TUXEDO	359
 Terpopuler 12 bulan	31	kali	Kali	349
-Terpopuler 12 bulan	32	puppy	Puppy	344
+Terpopuler 12 bulan	32	puppy	Puppy	343
 Terpopuler 12 bulan	33	alpine	Alpine	335
-Terpopuler 12 bulan	34	sparky	SparkyLinux	334
+Terpopuler 12 bulan	34	sparky	SparkyLinux	333
 Terpopuler 12 bulan	35	aerynos	AerynOS	331
 Terpopuler 12 bulan	36	pclinuxos	PCLinuxOS	329
-Terpopuler 12 bulan	37	zimaos	ZimaOS	325
+Terpopuler 12 bulan	37	zimaos	ZimaOS	324
 Terpopuler 12 bulan	38	tails	Tails	309
-Terpopuler 12 bulan	39	fydeos	FydeOS	305
+Terpopuler 12 bulan	39	fydeos	FydeOS	306
 Terpopuler 12 bulan	40	devuan	Devuan	304
 Terpopuler 12 bulan	41	mageia	Mageia	303
 Terpopuler 12 bulan	42	kubuntu	Kubuntu	294
-Terpopuler 12 bulan	43	lite	Lite	291
+Terpopuler 12 bulan	43	lite	Lite	290
 Terpopuler 12 bulan	44	solus	Solus	288
-Terpopuler 12 bulan	45	pearos	pearOS	280
-Terpopuler 12 bulan	46	chromeos	ChromeOS	277
+Terpopuler 12 bulan	45	pearos	pearOS	281
+Terpopuler 12 bulan	46	chromeos	ChromeOS	278
 Terpopuler 12 bulan	47	centos	CentOS	276
 Terpopuler 12 bulan	48	exton	Exton	276
-Terpopuler 12 bulan	49	alma	AlmaLinux	273
-Terpopuler 12 bulan	50	hackeros	HackerOS	269
-Terpopuler 12 bulan	51	linuxfx	Linuxfx	266
-Terpopuler 12 bulan	52	kdelinux	KDE Linux	261
-Terpopuler 12 bulan	53	voyager	Voyager	260
-Terpopuler 12 bulan	54	parrot	Parrot	259
-Terpopuler 12 bulan	55	gentoo	Gentoo	242
-Terpopuler 12 bulan	56	easyos	EasyOS	240
-Terpopuler 12 bulan	57	mocaccinoos	MocaccinoOS	226
+Terpopuler 12 bulan	49	alma	AlmaLinux	272
+Terpopuler 12 bulan	50	hackeros	HackerOS	266
+Terpopuler 12 bulan	51	linuxfx	Linuxfx	262
+Terpopuler 12 bulan	52	kdelinux	KDE Linux	260
+Terpopuler 12 bulan	53	parrot	Parrot	259
+Terpopuler 12 bulan	54	voyager	Voyager	258
+Terpopuler 12 bulan	55	easyos	EasyOS	240
+Terpopuler 12 bulan	56	gentoo	Gentoo	240
+Terpopuler 12 bulan	57	mocaccinoos	MocaccinoOS	225
 Terpopuler 12 bulan	58	gnomeos	GNOME OS	222
 Terpopuler 12 bulan	59	funos	FunOS	213
 Terpopuler 12 bulan	60	lubuntu	Lubuntu	213
 Terpopuler 12 bulan	61	peppermint	Peppermint	213
 Terpopuler 12 bulan	62	ultramarine	Ultramarine	210
 Terpopuler 12 bulan	63	slackware	Slackware	209
-Terpopuler 12 bulan	64	kaos	KaOS	206
+Terpopuler 12 bulan	64	kaos	KaOS	208
 Terpopuler 12 bulan	65	vailuxos	VailuxOS	202
 Terpopuler 12 bulan	66	avlinux	AV Linux	201
 Terpopuler 12 bulan	67	tinycore	Tiny Core	199
 Terpopuler 12 bulan	68	xubuntu	Xubuntu	197
 Terpopuler 12 bulan	69	commodore	Commodore	196
-Terpopuler 12 bulan	70	rocky	Rocky	195
+Terpopuler 12 bulan	70	rocky	Rocky	194
 Terpopuler 12 bulan	71	talos	Talos	193
-Terpopuler 12 bulan	72	dragonos	DragonOS	192
+Terpopuler 12 bulan	72	archbang	ArchBANG	192
 Terpopuler 12 bulan	73	magos	MagOS	192
-Terpopuler 12 bulan	74	archbang	ArchBANG	191
-Terpopuler 12 bulan	75	ultimate	Ultimate	190
-Terpopuler 12 bulan	76	redhat	Red Hat	189
-Terpopuler 12 bulan	77	deepin	deepin	187
+Terpopuler 12 bulan	74	dragonos	DragonOS	191
+Terpopuler 12 bulan	75	redhat	Red Hat	189
+Terpopuler 12 bulan	76	ultimate	Ultimate	189
+Terpopuler 12 bulan	77	deepin	deepin	186
 Terpopuler 12 bulan	78	smartos	SmartOS	185
 Terpopuler 12 bulan	79	aurora	Aurora	180
 Terpopuler 12 bulan	80	nebios	NebiOS	178
@@ -996,218 +996,219 @@ Terpopuler 12 bulan	81	ghostbsd	GhostBSD	176
 Terpopuler 12 bulan	82	archcraft	Archcraft	174
 Terpopuler 12 bulan	83	kodachi	Kodachi	174
 Terpopuler 12 bulan	84	blendos	blendOS	174
-Terpopuler 12 bulan	85	alt	ALT	169
-Terpopuler 12 bulan	86	besgnulinux	Besgnulinux	169
-Terpopuler 12 bulan	87	porteux	PorteuX	169
-Terpopuler 12 bulan	88	synex	Synex	169
-Terpopuler 12 bulan	89	vanilla	Vanilla	168
+Terpopuler 12 bulan	85	besgnulinux	Besgnulinux	169
+Terpopuler 12 bulan	86	porteux	PorteuX	169
+Terpopuler 12 bulan	87	synex	Synex	169
+Terpopuler 12 bulan	88	vanilla	Vanilla	169
+Terpopuler 12 bulan	89	alt	ALT	168
 Terpopuler 12 bulan	90	omegalinux	OmegaLinux	166
-Terpopuler 12 bulan	91	tromjaro	TROMjaro	165
-Terpopuler 12 bulan	92	modicia	MODICIA	164
+Terpopuler 12 bulan	91	modicia	MODICIA	165
+Terpopuler 12 bulan	92	tromjaro	TROMjaro	165
 Terpopuler 12 bulan	93	openmandriva	OpenMandriva	160
-Terpopuler 12 bulan	94	reactos	ReactOS	158
-Terpopuler 12 bulan	95	qubes	Qubes	156
+Terpopuler 12 bulan	94	reactos	ReactOS	159
+Terpopuler 12 bulan	95	qubes	Qubes	155
 Terpopuler 12 bulan	96	ideal	iDeal	152
-Terpopuler 12 bulan	97	agarimos	AgarimOS	150
+Terpopuler 12 bulan	97	agarimos	AgarimOS	151
 Terpopuler 12 bulan	98	vendefoul	Vendefoul	149
 Terpopuler 12 bulan	99	gnoppix	Gnoppix	148
 Terpopuler 12 bulan	100	nitrux	Nitrux	148
-Sedang naik daun 30 hari	197	nakedeb	nakeDeb	1415
-Sedang naik daun 30 hari	180	ditana	Ditana	1329
-Sedang naik daun 30 hari	88	kaos	KaOS	1046
-Sedang naik daun 30 hari	116	lankeos	LankeOS	1033
-Sedang naik daun 30 hari	4	debian	Debian	875
-Sedang naik daun 30 hari	78	archbang	ArchBANG	846
-Sedang naik daun 30 hari	75	exton	Exton	571
-Sedang naik daun 30 hari	7	ubuntu	Ubuntu	488
-Sedang naik daun 30 hari	149	flinux	FLinux	449
-Sedang naik daun 30 hari	100	lilidog	Lilidog	442
-Sedang naik daun 30 hari	111	desert	DESERT	423
-Sedang naik daun 30 hari	517	lcos	LCOS	416
-Sedang naik daun 30 hari	34	spaced	Spaced	400
-Sedang naik daun 30 hari	236	debianedu	Debian Edu	359
-Sedang naik daun 30 hari	70	funos	FunOS	308
-Sedang naik daun 30 hari	122	pulsar	Pulsar	270
-Sedang naik daun 30 hari	126	netdeep	Netdeep	254
-Sedang naik daun 30 hari	465	aciah	ACIAH	246
-Sedang naik daun 30 hari	25	arch	Arch	244
-Sedang naik daun 30 hari	97	tromjaro	TROMjaro	231
-Sedang naik daun 30 hari	28	reactos	ReactOS	230
-Sedang naik daun 30 hari	33	abora	Abora	184
-Sedang naik daun 30 hari	103	mabox	Mabox	179
-Sedang naik daun 30 hari	19	biglinux	BigLinux	158
-Sedang naik daun 30 hari	188	enigmarsos	EnigmarsOS	158
-Sedang naik daun 30 hari	6	fedora	Fedora	153
-Sedang naik daun 30 hari	10	endeavour	EndeavourOS	148
-Sedang naik daun 30 hari	14	fydeos	FydeOS	145
-Sedang naik daun 30 hari	2	mint	Mint	145
-Sedang naik daun 30 hari	48	zenwalk	Zenwalk	140
-Sedang naik daun 30 hari	57	xubuntu	Xubuntu	135
-Sedang naik daun 30 hari	42	kubuntu	Kubuntu	123
-Sedang naik daun 30 hari	63	lubuntu	Lubuntu	121
-Sedang naik daun 30 hari	31	openkylin	openKylin	120
-Sedang naik daun 30 hari	267	velox	Velox	120
-Sedang naik daun 30 hari	38	nawaos	NawaOS	116
-Sedang naik daun 30 hari	60	q83	Linux Q83	116
-Sedang naik daun 30 hari	20	q4os	Q4OS	113
-Sedang naik daun 30 hari	35	vanilla	Vanilla	108
-Sedang naik daun 30 hari	161	deblinux	Deblinux	107
-Sedang naik daun 30 hari	132	stormos	StormOS	103
-Sedang naik daun 30 hari	86	lfs	LFS	102
-Sedang naik daun 30 hari	178	slyos	SlyOS	101
-Sedang naik daun 30 hari	247	fu11m00n	fu11m00n	100
-Sedang naik daun 30 hari	196	haos	HAOS	95
-Sedang naik daun 30 hari	73	mocaccinoos	MocaccinoOS	95
-Sedang naik daun 30 hari	204	sweetpotatos	SweetPotatoOs	93
-Sedang naik daun 30 hari	23	anduin	AnduinOS	89
-Sedang naik daun 30 hari	61	devuan	Devuan	87
-Sedang naik daun 30 hari	3	mx	MX Linux	86
-Sedang naik daun 30 hari	198	ubuntuunity	Ubuntu Unity	86
-Sedang naik daun 30 hari	30	freebsd	FreeBSD	80
-Sedang naik daun 30 hari	137	ubuntucinnamon	Ubuntu Cinnamon	77
-Sedang naik daun 30 hari	93	reignos	ReignOS	73
-Sedang naik daun 30 hari	123	berserkarch	Berserk Arch	72
-Sedang naik daun 30 hari	81	slimbookos	Slimbook OS	72
-Sedang naik daun 30 hari	131	vendefoul	Vendefoul	71
-Sedang naik daun 30 hari	124	4mlinux	4MLinux	70
-Sedang naik daun 30 hari	142	margine	Margine	70
-Sedang naik daun 30 hari	87	cuerdos	CuerdOS	69
-Sedang naik daun 30 hari	140	linuxconsole	LinuxConsole	69
-Sedang naik daun 30 hari	173	ubuntukylin	Ubuntu Kylin	69
-Sedang naik daun 30 hari	187	ubuntumate	Ubuntu MATE	62
-Sedang naik daun 30 hari	26	void	Void	61
-Sedang naik daun 30 hari	184	ubuntubudgie	Ubuntu Budgie	59
-Sedang naik daun 30 hari	135	shadowfetch	Shadowfetch	57
-Sedang naik daun 30 hari	108	calamaroos	CalamaroOS	56
-Sedang naik daun 30 hari	134	besgnulinux	Besgnulinux	55
-Sedang naik daun 30 hari	45	butterbian	Butterbian	54
-Sedang naik daun 30 hari	130	grml	Grml	54
-Sedang naik daun 30 hari	120	netbsd	NetBSD	50
-Sedang naik daun 30 hari	147	vuudo	Vuu-do	50
-Sedang naik daun 30 hari	58	alpine	Alpine	49
-Sedang naik daun 30 hari	27	antix	antiX	46
-Sedang naik daun 30 hari	22	garuda	Garuda	45
-Sedang naik daun 30 hari	50	hackeros	HackerOS	44
-Sedang naik daun 30 hari	91	ultramarine	Ultramarine	43
-Sedang naik daun 30 hari	18	opensuse	openSUSE	41
-Sedang naik daun 30 hari	143	archcraft	Archcraft	40
-Sedang naik daun 30 hari	71	gentoo	Gentoo	40
-Sedang naik daun 30 hari	214	edubuntu	Edubuntu	39
-Sedang naik daun 30 hari	228	liveraizo	Live Raizo	38
-Sedang naik daun 30 hari	47	minios	MiniOS	38
-Sedang naik daun 30 hari	165	abeiros	AbeirOS	37
-Sedang naik daun 30 hari	209	glf	GLF	36
-Sedang naik daun 30 hari	192	ubuntustudio	Ubuntu Studio	35
-Sedang naik daun 30 hari	68	starkos	starkOS	34
-Sedang naik daun 30 hari	90	capivaraos	CapivaraOS	33
-Sedang naik daun 30 hari	11	bazzite	Bazzite	32
-Sedang naik daun 30 hari	110	aurora	Aurora	31
-Sedang naik daun 30 hari	229	xpq4	XPQ4	31
-Sedang naik daun 30 hari	121	pimersusos	PimersusOS	30
-Sedang naik daun 30 hari	157	polonos	PolonOS	30
-Sedang naik daun 30 hari	82	alma	AlmaLinux	28
-Sedang naik daun 30 hari	106	avlinux	AV Linux	27
-Sedang naik daun 30 hari	200	nekovoid	Neko-Void	27
-Sedang naik daun 30 hari	74	slackware	Slackware	27
-Sedang naik daun 30 hari	431	dekuve	DEKUVE	26
-Sedang naik daun 30 hari	141	blendos	blendOS	25
-Sedang naik daun 12 bulan	232	nakedeb	nakeDeb	1440
-Sedang naik daun 12 bulan	293	ditana	Ditana	1315
-Sedang naik daun 12 bulan	64	kaos	KaOS	1048
-Sedang naik daun 12 bulan	500	lankeos	LankeOS	1033
-Sedang naik daun 12 bulan	74	archbang	ArchBANG	785
-Sedang naik daun 12 bulan	20	omarchy	Omarchy	727
-Sedang naik daun 12 bulan	112	lilidog	Lilidog	533
-Sedang naik daun 12 bulan	420	flinux	FLinux	473
-Sedang naik daun 12 bulan	15	pikaos	PikaOS	471
-Sedang naik daun 12 bulan	115	desert	DESERT	453
-Sedang naik daun 12 bulan	487	skillfishos	SkillFishOS	427
-Sedang naik daun 12 bulan	517	lcos	LCOS	416
-Sedang naik daun 12 bulan	444	spaced	Spaced	400
-Sedang naik daun 12 bulan	45	pearos	pearOS	393
-Sedang naik daun 12 bulan	255	debianedu	Debian Edu	330
-Sedang naik daun 12 bulan	46	chromeos	ChromeOS	318
-Sedang naik daun 12 bulan	11	bazzite	Bazzite	304
-Sedang naik daun 12 bulan	39	fydeos	FydeOS	299
-Sedang naik daun 12 bulan	5	debian	Debian	296
-Sedang naik daun 12 bulan	502	pulsar	Pulsar	270
-Sedang naik daun 12 bulan	392	netdeep	Netdeep	268
-Sedang naik daun 12 bulan	27	artix	Artix	267
-Sedang naik daun 12 bulan	48	exton	Exton	252
-Sedang naik daun 12 bulan	59	funos	FunOS	251
-Sedang naik daun 12 bulan	516	aciah	ACIAH	246
-Sedang naik daun 12 bulan	252	abora	Abora	237
-Sedang naik daun 12 bulan	143	q83	Linux Q83	220
-Sedang naik daun 12 bulan	107	rakuos	RakuOS	216
-Sedang naik daun 12 bulan	91	tromjaro	TROMjaro	206
-Sedang naik daun 12 bulan	23	void	Void	183
-Sedang naik daun 12 bulan	507	enigmarsos	EnigmarsOS	158
-Sedang naik daun 12 bulan	98	vendefoul	Vendefoul	157
-Sedang naik daun 12 bulan	129	soplos	Soplos	151
-Sedang naik daun 12 bulan	101	steamos	SteamOS	148
-Sedang naik daun 12 bulan	14	arch	Arch	137
-Sedang naik daun 12 bulan	345	nawaos	NawaOS	135
-Sedang naik daun 12 bulan	97	agarimos	AgarimOS	133
-Sedang naik daun 12 bulan	105	mabox	Mabox	130
-Sedang naik daun 12 bulan	498	vuudo	Vuu-do	127
-Sedang naik daun 12 bulan	342	deblinux	Deblinux	125
-Sedang naik daun 12 bulan	35	aerynos	AerynOS	124
-Sedang naik daun 12 bulan	460	starkos	starkOS	124
-Sedang naik daun 12 bulan	514	velox	Velox	120
-Sedang naik daun 12 bulan	281	zenwalk	Zenwalk	120
-Sedang naik daun 12 bulan	90	omegalinux	OmegaLinux	119
-Sedang naik daun 12 bulan	171	calamaroos	CalamaroOS	117
-Sedang naik daun 12 bulan	125	openkylin	openKylin	114
-Sedang naik daun 12 bulan	267	haos	HAOS	113
-Sedang naik daun 12 bulan	68	xubuntu	Xubuntu	110
-Sedang naik daun 12 bulan	113	prismlinux	PrismLinux	109
-Sedang naik daun 12 bulan	65	vailuxos	VailuxOS	108
-Sedang naik daun 12 bulan	114	slimbookos	Slimbook OS	105
-Sedang naik daun 12 bulan	158	berserkarch	Berserk Arch	104
-Sedang naik daun 12 bulan	509	slyos	SlyOS	101
-Sedang naik daun 12 bulan	515	fu11m00n	fu11m00n	100
-Sedang naik daun 12 bulan	94	reactos	ReactOS	95
-Sedang naik daun 12 bulan	475	margine	Margine	94
-Sedang naik daun 12 bulan	283	shadowfetch	Shadowfetch	94
-Sedang naik daun 12 bulan	513	sweetpotatos	SweetPotatoOs	93
-Sedang naik daun 12 bulan	86	besgnulinux	Besgnulinux	91
-Sedang naik daun 12 bulan	58	gnomeos	GNOME OS	89
-Sedang naik daun 12 bulan	80	nebios	NebiOS	88
-Sedang naik daun 12 bulan	79	aurora	Aurora	81
-Sedang naik daun 12 bulan	239	butterbian	Butterbian	81
-Sedang naik daun 12 bulan	88	synex	Synex	81
-Sedang naik daun 12 bulan	263	nekovoid	Neko-Void	78
-Sedang naik daun 12 bulan	174	stormos	StormOS	75
-Sedang naik daun 12 bulan	382	mainstream	Mainstream	73
-Sedang naik daun 12 bulan	496	reignos	ReignOS	73
-Sedang naik daun 12 bulan	196	solydxk	SolydXK	71
-Sedang naik daun 12 bulan	236	ubuntuunity	Ubuntu Unity	69
-Sedang naik daun 12 bulan	276	abeiros	AbeirOS	67
-Sedang naik daun 12 bulan	6	zorin	Zorin	66
-Sedang naik daun 12 bulan	96	ideal	iDeal	64
-Sedang naik daun 12 bulan	144	netbsd	NetBSD	62
-Sedang naik daun 12 bulan	60	lubuntu	Lubuntu	61
-Sedang naik daun 12 bulan	284	ubuntukylin	Ubuntu Kylin	60
-Sedang naik daun 12 bulan	200	afagos	AfagOS	58
-Sedang naik daun 12 bulan	103	cuerdos	CuerdOS	58
-Sedang naik daun 12 bulan	41	mageia	Mageia	58
-Sedang naik daun 12 bulan	131	aeon	Aeon	57
-Sedang naik daun 12 bulan	78	smartos	SmartOS	57
-Sedang naik daun 12 bulan	179	ubuntucinnamon	Ubuntu Cinnamon	56
-Sedang naik daun 12 bulan	465	xpq4	XPQ4	56
-Sedang naik daun 12 bulan	394	superlite	Super Lite	53
-Sedang naik daun 12 bulan	259	astra	Astra	52
-Sedang naik daun 12 bulan	354	linuxconsole	LinuxConsole	51
-Sedang naik daun 12 bulan	132	d77void	d77void	49
-Sedang naik daun 12 bulan	237	gabee	gabeeOSLinux	49
-Sedang naik daun 12 bulan	372	pimersusos	PimersusOS	48
-Sedang naik daun 12 bulan	246	senpai	Senpai	48
-Sedang naik daun 12 bulan	243	asahi	Asahi	47
-Sedang naik daun 12 bulan	234	essora	Essora	47
-Sedang naik daun 12 bulan	110	umbrelos	umbrelOS	47
-Sedang naik daun 12 bulan	251	hacktrack	<<Hack|Track	46
-Sedang naik daun 12 bulan	219	noid	Noid	44
-Sedang naik daun 12 bulan	160	ml4w	ML4W	43
-Sedang naik daun 12 bulan	508	nebula	Nebula	41
-Sedang naik daun 12 bulan	204	stratos	StratOS	41
-Sedang naik daun 12 bulan	213	ubuntubudgie	Ubuntu Budgie	41
+Sedang naik daun 30 hari	208	syslinuxos	SysLinuxOS	1157
+Sedang naik daun 30 hari	197	flora	Flora	1036
+Sedang naik daun 30 hari	123	extrox	extrox	993
+Sedang naik daun 30 hari	224	nutyx	NuTyX	819
+Sedang naik daun 30 hari	93	lankeos	LankeOS	773
+Sedang naik daun 30 hari	205	dietpi	DietPi	575
+Sedang naik daun 30 hari	4	debian	Debian	489
+Sedang naik daun 30 hari	358	lcos	LCOS	479
+Sedang naik daun 30 hari	518	xbian	XBian	473
+Sedang naik daun 30 hari	127	modicia	MODICIA	436
+Sedang naik daun 30 hari	7	ubuntu	Ubuntu	427
+Sedang naik daun 30 hari	155	ditana	Ditana	419
+Sedang naik daun 30 hari	267	bros	Br OS	411
+Sedang naik daun 30 hari	165	nakedeb	nakeDeb	396
+Sedang naik daun 30 hari	77	kaos	KaOS	370
+Sedang naik daun 30 hari	232	flatcar	Flatcar	362
+Sedang naik daun 30 hari	71	archbang	ArchBANG	359
+Sedang naik daun 30 hari	33	spaced	Spaced	351
+Sedang naik daun 30 hari	34	vanilla	Vanilla	345
+Sedang naik daun 30 hari	101	desert	DESERT	341
+Sedang naik daun 30 hari	114	easyos	EasyOS	274
+Sedang naik daun 30 hari	139	flinux	FLinux	219
+Sedang naik daun 30 hari	72	exton	Exton	218
+Sedang naik daun 30 hari	27	reactos	ReactOS	218
+Sedang naik daun 30 hari	117	pulsar	Pulsar	209
+Sedang naik daun 30 hari	19	biglinux	BigLinux	202
+Sedang naik daun 30 hari	24	arch	Arch	190
+Sedang naik daun 30 hari	6	fedora	Fedora	181
+Sedang naik daun 30 hari	10	omarchy	Omarchy	180
+Sedang naik daun 30 hari	3	mx	MX Linux	167
+Sedang naik daun 30 hari	14	fydeos	FydeOS	159
+Sedang naik daun 30 hari	399	aciah	ACIAH	158
+Sedang naik daun 30 hari	124	netdeep	Netdeep	150
+Sedang naik daun 30 hari	81	lfs	LFS	140
+Sedang naik daun 30 hari	128	stormos	StormOS	139
+Sedang naik daun 30 hari	179	enigmarsos	EnigmarsOS	137
+Sedang naik daun 30 hari	95	lilidog	Lilidog	133
+Sedang naik daun 30 hari	254	velox	Velox	124
+Sedang naik daun 30 hari	228	debianedu	Debian Edu	122
+Sedang naik daun 30 hari	38	nawaos	NawaOS	122
+Sedang naik daun 30 hari	102	tinycore	Tiny Core	116
+Sedang naik daun 30 hari	60	q83	Linux Q83	115
+Sedang naik daun 30 hari	103	mabox	Mabox	110
+Sedang naik daun 30 hari	94	tromjaro	TROMjaro	110
+Sedang naik daun 30 hari	20	q4os	Q4OS	109
+Sedang naik daun 30 hari	252	slitaz	SliTaz	99
+Sedang naik daun 30 hari	239	fu11m00n	fu11m00n	96
+Sedang naik daun 30 hari	175	slyos	SlyOS	96
+Sedang naik daun 30 hari	236	asahi	Asahi	95
+Sedang naik daun 30 hari	159	deblinux	Deblinux	93
+Sedang naik daun 30 hari	42	kubuntu	Kubuntu	93
+Sedang naik daun 30 hari	2	mint	Mint	93
+Sedang naik daun 30 hari	47	zenwalk	Zenwalk	92
+Sedang naik daun 30 hari	57	xubuntu	Xubuntu	87
+Sedang naik daun 30 hari	190	haos	HAOS	85
+Sedang naik daun 30 hari	30	freebsd	FreeBSD	84
+Sedang naik daun 30 hari	199	sweetpotatos	SweetPotatoOs	83
+Sedang naik daun 30 hari	108	calamaroos	CalamaroOS	78
+Sedang naik daun 30 hari	74	mocaccinoos	MocaccinoOS	73
+Sedang naik daun 30 hari	31	openkylin	openKylin	71
+Sedang naik daun 30 hari	91	reignos	ReignOS	70
+Sedang naik daun 30 hari	69	funos	FunOS	65
+Sedang naik daun 30 hari	132	vendefoul	Vendefoul	61
+Sedang naik daun 30 hari	125	4mlinux	4MLinux	57
+Sedang naik daun 30 hari	18	opensuse	openSUSE	57
+Sedang naik daun 30 hari	135	besgnulinux	Besgnulinux	54
+Sedang naik daun 30 hari	173	ubuntukylin	Ubuntu Kylin	54
+Sedang naik daun 30 hari	138	ubuntucinnamon	Ubuntu Cinnamon	53
+Sedang naik daun 30 hari	142	margine	Margine	51
+Sedang naik daun 30 hari	68	starkos	starkOS	51
+Sedang naik daun 30 hari	76	slackware	Slackware	50
+Sedang naik daun 30 hari	23	anduin	AnduinOS	49
+Sedang naik daun 30 hari	85	cuerdos	CuerdOS	49
+Sedang naik daun 30 hari	22	garuda	Garuda	48
+Sedang naik daun 30 hari	116	ghostbsd	GhostBSD	48
+Sedang naik daun 30 hari	40	rakuos	RakuOS	47
+Sedang naik daun 30 hari	196	ubuntuunity	Ubuntu Unity	47
+Sedang naik daun 30 hari	9	endeavour	EndeavourOS	46
+Sedang naik daun 30 hari	183	ubuntubudgie	Ubuntu Budgie	45
+Sedang naik daun 30 hari	130	grml	Grml	44
+Sedang naik daun 30 hari	63	lubuntu	Lubuntu	43
+Sedang naik daun 30 hari	45	butterbian	Butterbian	41
+Sedang naik daun 30 hari	206	glf	GLF	41
+Sedang naik daun 30 hari	200	nekovoid	Neko-Void	41
+Sedang naik daun 30 hari	220	lingmo	Lingmo	39
+Sedang naik daun 30 hari	61	devuan	Devuan	38
+Sedang naik daun 30 hari	141	linuxconsole	LinuxConsole	38
+Sedang naik daun 30 hari	137	shadowfetch	Shadowfetch	37
+Sedang naik daun 30 hari	152	polonos	PolonOS	34
+Sedang naik daun 30 hari	187	ubuntumate	Ubuntu MATE	34
+Sedang naik daun 30 hari	151	vuudo	Vuu-do	34
+Sedang naik daun 30 hari	214	edubuntu	Edubuntu	31
+Sedang naik daun 30 hari	25	nobara	Nobara	29
+Sedang naik daun 30 hari	143	blendos	blendOS	28
+Sedang naik daun 30 hari	218	securityonion	Security Onion	28
+Sedang naik daun 30 hari	136	umbrelos	umbrelOS	26
+Sedang naik daun 30 hari	126	berserkarch	Berserk Arch	24
+Sedang naik daun 30 hari	100	centos	CentOS	24
+Sedang naik daun 30 hari	82	cobaltx	CobaltX	24
+Sedang naik daun 30 hari	73	gentoo	Gentoo	24
+Sedang naik daun 12 bulan	182	syslinuxos	SysLinuxOS	1145
+Sedang naik daun 12 bulan	164	flora	Flora	1072
+Sedang naik daun 12 bulan	483	skillfishos	SkillFishOS	1017
+Sedang naik daun 12 bulan	116	extrox	extrox	835
+Sedang naik daun 12 bulan	196	nutyx	NuTyX	809
+Sedang naik daun 12 bulan	496	lankeos	LankeOS	773
+Sedang naik daun 12 bulan	20	omarchy	Omarchy	735
+Sedang naik daun 12 bulan	124	dietpi	DietPi	649
+Sedang naik daun 12 bulan	15	pikaos	PikaOS	505
+Sedang naik daun 12 bulan	148	flatcar	Flatcar	482
+Sedang naik daun 12 bulan	517	lcos	LCOS	479
+Sedang naik daun 12 bulan	518	xbian	XBian	473
+Sedang naik daun 12 bulan	227	nakedeb	nakeDeb	418
+Sedang naik daun 12 bulan	290	ditana	Ditana	402
+Sedang naik daun 12 bulan	189	bros	Br OS	396
+Sedang naik daun 12 bulan	114	desert	DESERT	383
+Sedang naik daun 12 bulan	91	modicia	MODICIA	377
+Sedang naik daun 12 bulan	64	kaos	KaOS	373
+Sedang naik daun 12 bulan	439	spaced	Spaced	351
+Sedang naik daun 12 bulan	27	artix	Artix	329
+Sedang naik daun 12 bulan	45	pearos	pearOS	329
+Sedang naik daun 12 bulan	72	archbang	ArchBANG	316
+Sedang naik daun 12 bulan	46	chromeos	ChromeOS	313
+Sedang naik daun 12 bulan	39	fydeos	FydeOS	286
+Sedang naik daun 12 bulan	11	bazzite	Bazzite	257
+Sedang naik daun 12 bulan	413	flinux	FLinux	248
+Sedang naik daun 12 bulan	107	rakuos	RakuOS	240
+Sedang naik daun 12 bulan	88	vanilla	Vanilla	234
+Sedang naik daun 12 bulan	111	lilidog	Lilidog	232
+Sedang naik daun 12 bulan	502	pulsar	Pulsar	209
+Sedang naik daun 12 bulan	141	q83	Linux Q83	202
+Sedang naik daun 12 bulan	392	netdeep	Netdeep	169
+Sedang naik daun 12 bulan	516	aciah	ACIAH	158
+Sedang naik daun 12 bulan	128	soplos	Soplos	150
+Sedang naik daun 12 bulan	345	nawaos	NawaOS	148
+Sedang naik daun 12 bulan	98	vendefoul	Vendefoul	143
+Sedang naik daun 12 bulan	101	steamos	SteamOS	141
+Sedang naik daun 12 bulan	507	enigmarsos	EnigmarsOS	137
+Sedang naik daun 12 bulan	243	asahi	Asahi	135
+Sedang naik daun 12 bulan	341	deblinux	Deblinux	126
+Sedang naik daun 12 bulan	92	tromjaro	TROMjaro	124
+Sedang naik daun 12 bulan	515	velox	Velox	124
+Sedang naik daun 12 bulan	460	starkos	starkOS	123
+Sedang naik daun 12 bulan	172	calamaroos	CalamaroOS	122
+Sedang naik daun 12 bulan	262	haos	HAOS	120
+Sedang naik daun 12 bulan	94	reactos	ReactOS	117
+Sedang naik daun 12 bulan	174	stormos	StormOS	117
+Sedang naik daun 12 bulan	97	agarimos	AgarimOS	116
+Sedang naik daun 12 bulan	500	vuudo	Vuu-do	115
+Sedang naik daun 12 bulan	113	prismlinux	PrismLinux	111
+Sedang naik daun 12 bulan	65	vailuxos	VailuxOS	106
+Sedang naik daun 12 bulan	87	synex	Synex	103
+Sedang naik daun 12 bulan	256	debianedu	Debian Edu	102
+Sedang naik daun 12 bulan	90	omegalinux	OmegaLinux	97
+Sedang naik daun 12 bulan	514	fu11m00n	fu11m00n	96
+Sedang naik daun 12 bulan	509	slyos	SlyOS	96
+Sedang naik daun 12 bulan	96	ideal	iDeal	93
+Sedang naik daun 12 bulan	264	nekovoid	Neko-Void	89
+Sedang naik daun 12 bulan	17	biglinux	BigLinux	88
+Sedang naik daun 12 bulan	282	zenwalk	Zenwalk	84
+Sedang naik daun 12 bulan	513	sweetpotatos	SweetPotatoOs	83
+Sedang naik daun 12 bulan	475	margine	Margine	81
+Sedang naik daun 12 bulan	23	void	Void	80
+Sedang naik daun 12 bulan	35	aerynos	AerynOS	79
+Sedang naik daun 12 bulan	281	shadowfetch	Shadowfetch	78
+Sedang naik daun 12 bulan	146	slitaz	SliTaz	77
+Sedang naik daun 12 bulan	80	nebios	NebiOS	75
+Sedang naik daun 12 bulan	252	abora	Abora	72
+Sedang naik daun 12 bulan	197	solydxk	SolydXK	71
+Sedang naik daun 12 bulan	497	reignos	ReignOS	70
+Sedang naik daun 12 bulan	85	besgnulinux	Besgnulinux	69
+Sedang naik daun 12 bulan	382	mainstream	Mainstream	69
+Sedang naik daun 12 bulan	239	butterbian	Butterbian	64
+Sedang naik daun 12 bulan	115	slimbookos	Slimbook OS	64
+Sedang naik daun 12 bulan	110	umbrelos	umbrelOS	59
+Sedang naik daun 12 bulan	79	aurora	Aurora	57
+Sedang naik daun 12 bulan	58	gnomeos	GNOME OS	57
+Sedang naik daun 12 bulan	284	ubuntukylin	Ubuntu Kylin	57
+Sedang naik daun 12 bulan	126	openkylin	openKylin	55
+Sedang naik daun 12 bulan	157	berserkarch	Berserk Arch	54
+Sedang naik daun 12 bulan	131	d77void	d77void	52
+Sedang naik daun 12 bulan	245	senpai	Senpai	51
+Sedang naik daun 12 bulan	465	xpq4	XPQ4	51
+Sedang naik daun 12 bulan	325	stillos	stillOS	50
+Sedang naik daun 12 bulan	173	quarkos	Quarkos	49
+Sedang naik daun 12 bulan	394	superlite	Super Lite	49
+Sedang naik daun 12 bulan	247	hacktrack	<<Hack|Track	46
+Sedang naik daun 12 bulan	276	abeiros	AbeirOS	45
+Sedang naik daun 12 bulan	133	lazylinux	LazyLinux	45
+Sedang naik daun 12 bulan	105	mabox	Mabox	45
+Sedang naik daun 12 bulan	132	aeon	Aeon	44
+Sedang naik daun 12 bulan	200	aosc	AOSC	43
+Sedang naik daun 12 bulan	67	tinycore	Tiny Core	43
+Sedang naik daun 12 bulan	359	zenlake	ZenLake	43
+Sedang naik daun 12 bulan	160	ml4w	ML4W	42
+Sedang naik daun 12 bulan	78	smartos	SmartOS	42
+Sedang naik daun 12 bulan	231	ubuntuunity	Ubuntu Unity	42
+Sedang naik daun 12 bulan	255	astra	Astra	40
+Sedang naik daun 12 bulan	234	essora	Essora	40
+Sedang naik daun 12 bulan	219	noid	Noid	40
