@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-09-14 09:04 UTC — ✅ Aktif: **123** · ⚠️ Diragukan: **1** · ❌ Rusak: **0** · Total: **124**
+**Diperiksa robot:** 2026-09-21 09:05 UTC — ✅ Aktif: **120** · ⚠️ Diragukan: **3** · ❌ Rusak: **1** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -145,8 +145,8 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | antiX | full (~1.7GB) | ✅ | link |
 | Tiny Core | CorePlus (~250MB) | ✅ | auto |
 | Slackware | 15.0 (~3.8GB) | ✅ | link |
-| FreeBSD | disc1 / 14.3 (~1.2GB) | ✅ | auto |
-| FreeBSD | bootonly / 14.3 (~430MB) | ✅ | auto |
+| FreeBSD | disc1 / 14.3 (~1.2GB) | ⚠️ | auto |
+| FreeBSD | bootonly / 14.3 (~430MB) | ⚠️ | auto |
 | OpenBSD | install (~800MB) | ✅ | link |
 | NetBSD | 10 (~500MB) | ✅ | link |
 | GhostBSD | MATE (~2.9GB) | ✅ | auto |
@@ -160,7 +160,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Kali Linux | Purple (~4.7GB) | ✅ | auto |
 | Kali Linux | netinst (~600MB) | ✅ | auto |
 | BlackArch | netinstall (~800MB) | ✅ | auto |
-| Tails | ISO terbaru (~1.7GB) | ✅ | link |
+| Tails | ISO terbaru (~1.7GB) | ❌ | link |
 | Qubes OS | 4.2 (~6.5GB) | ✅ | auto |
 
 ### UTILITAS / RESCUE
