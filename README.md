@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-09-21 09:05 UTC — ✅ Aktif: **120** · ⚠️ Diragukan: **3** · ❌ Rusak: **1** · Total: **124**
+**Diperiksa robot:** 2026-09-28 09:57 UTC — ✅ Aktif: **120** · ⚠️ Diragukan: **3** · ❌ Rusak: **1** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -82,7 +82,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Manjaro | Xfce (~3.7GB) | ✅ | link |
 | Pop!_OS | 22.04 LTS (~2.8GB) | ✅ | link |
 | Zorin OS | Core 17 (~3.5GB) | ✅ | auto |
-| elementary OS | 8 (~3.0GB) | ✅ | link |
+| elementary OS | 8 (~3.0GB) | ⚠️ | link |
 | Garuda | Dragonized (~3.3GB) | ✅ | link |
 | Garuda | GNOME (~3.2GB) | ✅ | link |
 | Garuda | Xfce (~2.9GB) | ✅ | link |
@@ -173,7 +173,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Rescuezilla | 2.6.2 (~1.5GB) | ✅ | link |
 | Grml | full (~800MB) | ✅ | auto |
 | Grml | small (~400MB) | ✅ | auto |
-| Kaspersky Rescue | krd (~677MB) | ⚠️ | link |
+| Kaspersky Rescue | krd (~677MB) | ✅ | link |
 | ShredOS | wipe (~394MB) | ✅ | link |
 | Redo Rescue | terbaru (~700MB) | ✅ | link |
 
