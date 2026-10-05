@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-09-28 09:57 UTC — ✅ Aktif: **120** · ⚠️ Diragukan: **3** · ❌ Rusak: **1** · Total: **124**
+**Diperiksa robot:** 2026-10-05 10:38 UTC — ✅ Aktif: **118** · ⚠️ Diragukan: **4** · ❌ Rusak: **2** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -148,7 +148,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | FreeBSD | disc1 / 14.3 (~1.2GB) | ⚠️ | auto |
 | FreeBSD | bootonly / 14.3 (~430MB) | ⚠️ | auto |
 | OpenBSD | install (~800MB) | ✅ | link |
-| NetBSD | 10 (~500MB) | ✅ | link |
+| NetBSD | 10 (~500MB) | ❌ | link |
 | GhostBSD | MATE (~2.9GB) | ✅ | auto |
 | GhostBSD | Xfce (~2.9GB) | ✅ | auto |
 
@@ -173,7 +173,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Rescuezilla | 2.6.2 (~1.5GB) | ✅ | link |
 | Grml | full (~800MB) | ✅ | auto |
 | Grml | small (~400MB) | ✅ | auto |
-| Kaspersky Rescue | krd (~677MB) | ✅ | link |
+| Kaspersky Rescue | krd (~677MB) | ⚠️ | link |
 | ShredOS | wipe (~394MB) | ✅ | link |
 | Redo Rescue | terbaru (~700MB) | ✅ | link |
 
