@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-10-05 10:38 UTC — ✅ Aktif: **118** · ⚠️ Diragukan: **4** · ❌ Rusak: **2** · Total: **124**
+**Diperiksa robot:** 2026-10-12 11:02 UTC — ✅ Aktif: **118** · ⚠️ Diragukan: **4** · ❌ Rusak: **2** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
