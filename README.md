@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-10-12 11:02 UTC — ✅ Aktif: **118** · ⚠️ Diragukan: **4** · ❌ Rusak: **2** · Total: **124**
+**Diperiksa robot:** 2026-10-19 09:03 UTC — ✅ Aktif: **119** · ⚠️ Diragukan: **3** · ❌ Rusak: **2** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -173,7 +173,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Rescuezilla | 2.6.2 (~1.5GB) | ✅ | link |
 | Grml | full (~800MB) | ✅ | auto |
 | Grml | small (~400MB) | ✅ | auto |
-| Kaspersky Rescue | krd (~677MB) | ⚠️ | link |
+| Kaspersky Rescue | krd (~677MB) | ✅ | link |
 | ShredOS | wipe (~394MB) | ✅ | link |
 | Redo Rescue | terbaru (~700MB) | ✅ | link |
 
