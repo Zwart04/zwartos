@@ -5,7 +5,7 @@ Unduh ISO sistem operasi langsung ke flashdisk **Ventoy** lewat **WiFi**/LAN —
 Daftar OS ada di **[`zwartos-oslist.txt`](zwartos-oslist.txt)** dan ditarik otomatis oleh ISO ZWARTOS tiap online.
 
 <!-- STATUS:START -->
-**Diperiksa robot:** 2026-11-16 11:07 UTC — ✅ Aktif: **116** · ⚠️ Diragukan: **6** · ❌ Rusak: **2** · Total: **124**
+**Diperiksa robot:** 2026-11-23 12:26 UTC — ✅ Aktif: **115** · ⚠️ Diragukan: **7** · ❌ Rusak: **2** · Total: **124**
 <!-- STATUS:END -->
 
 ## Cara pakai
@@ -76,7 +76,7 @@ Legenda: ✅ aktif · ⚠️ diragukan (mungkin blokir bot/CI; biasanya tetap bi
 | Debian | Live LXQt / terbaru (~3.7GB) | ✅ | auto |
 | Debian | Live standard / terbaru (~1.5GB) | ✅ | auto |
 | openSUSE | Tumbleweed DVD (~4.2GB) | ✅ | link |
-| openSUSE | Leap 15.6 DVD (~4.3GB) | ✅ | auto |
+| openSUSE | Leap 15.6 DVD (~4.3GB) | ⚠️ | auto |
 | Manjaro | KDE Plasma (~4.2GB) | ✅ | link |
 | Manjaro | GNOME (~4.0GB) | ✅ | link |
 | Manjaro | Xfce (~3.7GB) | ✅ | link |
